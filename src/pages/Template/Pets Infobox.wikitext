@@ -1,0 +1,73 @@
+<noinclude>'''''There is an older version available that is recommended for basic custom pet blog posts.''''' See [[Template:Pets_Infobox/Old1|here.]]</noinclude>
+<includeonly>{{#invoke:Pets_Infobox|CreateInfobox|title = {{#if:{{{title1|}}}|{{{title1}}}|{{PAGENAME}}}}|image1 = {{{image1}}}|image2 = {{{image2}}}|image3 = {{{image3}}}|image4 = {{{image4}}}|PetName = {{#if:{{{PetName|}}}|{{{PetName}}}|{{PAGENAME}}}}|caption1 = {{{caption1}}}|caption2 = {{{caption2}}}|caption3 = {{{caption3}}}|caption4 = {{{caption4}}}|Namespace = {{NAMESPACE}}|chance = {{{chance}}}|rarity = {{{rarity}}}|type = {{{type}}}|bubble = {{{bubble}}}|coin = {{{coin}}}|jewel = {{{jewel}}}|Candy = {{{Candy}}}|Candy-1 = {{{Candy-1}}}|Block = {{{Block}}}|Shell = {{{Shell}}}|Pearl = {{{Pearl}}}|Star = {{{Star}}}|Magma = {{{Magma}}}|Crystal = {{{Crystal}}}|All = {{{All}}}|CandyC = {{{CandyC}}}|Gift = {{{Gift}}}|Ticket = {{{Ticket}}}|Flower = {{{Flower}}}|Rainbow = {{{Rainbow}}}|Token = {{{Token}}}|Treat = {{{Treat}}}|Silver = {{Silver}}|HasMythic = {{{HasMythic}}}}}</includeonly>
+<noinclude>
+== Example Usage ==
+<pre>
+{{Pets_Infobox|title1 = Inferno Dragon|rarity = Legendary|type = Walk|image1 = Inferno Dragon.png|image2 = Shiny Inferno Dragon.png|caption1 = An image caption!|caption2 = A shiny image caption!|bubble = 10|coin = 10|jewel = 10}}
+</pre>
+== Documentation ==
+* '''title'''
+** The title to appear above the infobox, can also be title1.
+* '''image1'''
+** The normal image for the infobox.
+* '''image2'''
+** The shiny image for the infobox.
+* '''image3'''
+** The mythic image for the infobox, will only appear if HasMythic is true.
+* '''image4'''
+** The shiny mythic image for the infobox, will only appear if HasMythic is true.
+* '''caption1'''
+** The caption to appear below image1.
+* '''caption2'''
+** The caption to appear below image2.
+* '''caption3'''
+** The caption to appear below image3, will only appear if HasMythic is true.
+* '''caption4'''
+** The caption to appear below image4, will only appear if HasMythic is true.
+* '''type'''
+** The animation of the pet to appear below the image, must be either 'walk' or 'fly', not case-sensitive
+* '''rarity''' 
+** The rarity of the pet to appear below the image, must be either 'Common', 'Unique', 'Rare', 'Epic', 'Legendary' or 'Mythic', not case-sensitive.
+* '''HasMythic'''
+** Determines if the panels for the Mythic and Shiny Mythic will appear, must be boolean (true, false).
+* '''chance'''
+** The chance of the pet to appear below everything else.
+* '''bubble'''
+** The Bubble stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''coin'''
+** The Coin stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''jewel'''
+** The Jewel stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3), can also be gem.
+* '''Candy'''
+** The Candy Canes stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Candy-1'''
+** The Candy stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Block'''
+** The Block stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Shell'''
+** The Shell stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Pearl'''
+** The Pearl stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Star'''
+** The Star stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Magma'''
+** The Magma stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''CandyC'''
+** The Candy Corn stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Gift'''
+** The Present stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''All'''
+** The All stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Ticket'''
+** The Ticket stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Rainbow'''
+** The Rainbow stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Crystal'''
+** The Crystal stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Flower'''
+** The Flower stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Token'''
+** The Token stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+* '''Treat'''
+** The Treat stat to appear in stats, in each panel is multipled by a number (1, 1.5, 2, 3).
+</noinclude>
