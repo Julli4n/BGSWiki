@@ -2,6 +2,7 @@
 
 /* Creating space for any username under specified class(es)
 
+
 [class^="mw-userlink"]::before, [class^="userlink"]:not(.wds-is-unread)::before, [class^="EntityHeader_name__2oRXg"]::before
   width: 20px !important
   height: 20px !important
@@ -29,30 +30,40 @@
   vertical-align: sub !important
   display: inline-block !important
 
+/* Function to display badges
+@function display-badges-url($group)
+  @if $group == "bureaucrat"
+    @return "https://static.wikia.nocookie.net/bubble-gum-simulator/images/2/27/Badge-Bureaucrat.png"
+  @else if $group == "sysop"
+    @return "https://static.wikia.nocookie.net/central/images/1/12/Badge-Admin.svg"
+  @else if $group == "content-moderator"
+    @return "https://static.wikia.nocookie.net/central/images/e/ef/Badge-ContentModerator.svg"
+  @else if $group == "threadmoderator"
+    @return "https://static.wikia.nocookie.net/central/images/5/50/Badge-DiscussionsModerator.svg"
+  @else 
+    @return ""
+  
+
 /* Bureaucrats
 
 [href="/wiki/User:Beckaaa"]::before, [href="/wiki/User:TotallyNotJullian"]::before, [href="/wiki/User:GpaSarge6"]::before, [href="/wiki/User:Bawp32"]::before
   content: ''
-  background-image: url('https://static.wikia.nocookie.net/bubble-gum-simulator/images/2/27/Badge-Bureaucrat.png')
+  background-image: url(display-badges-url("bureaucrat"))
 
 /* Administrators
 
-[href="/wiki/User:TheSeal27"]::before
+[href="/wiki/User:Mr.Bladen"]::before, [href="/wiki/User:TheSeal27"]::before, [href="/wiki/User:Jojoboz123"]::before, [href="/wiki/User:IAmaPersonthatExists"]::before, [href="/wiki/User:BlueSalsa"]::before, [href="/wiki/User:RaptorZeraora"]::before
   content: ''
-  background-image: url('https://static.wikia.nocookie.net/bubble-gum-simulator/images/0/00/TheSeal27_with_Badge-Admin.png')
-
-[href="/wiki/User:Mr.Bladen"]::before, [href="/wiki/User:Jojoboz123"]::before, [href="/wiki/User:IAmaPersonthatExists"]::before, [href="/wiki/User:BlueSalsa"]::before, [href="/wiki/User:RaptorZeraora"]::before
-  content: ''
-  background-image: url('https://vignette.wikia.nocookie.net/central/images/1/12/Badge-Admin.svg')
+  background-image: url(display-badges-url("sysop"))
 
 /* Content Moderator
 
 [href="/wiki/User:Jibs23"]::before, [href="/wiki/User:SandyDice"]::before, [href="/wiki/User:Hypxr"]::before
   content: ''
-  background-image: url('https://vignette.wikia.nocookie.net/central/images/e/ef/Badge-ContentModerator.svg')
+  background-image: url(display-badges-url("content-moderator"))
 
 /* Discussion Moderator
 
 [href="/wiki/User:AbsolutelyAdorkable"]::before, [href="/wiki/User:DefildPlaysThinks"]::before, [href="/wiki/User:Drei2k5"]::before, [href="/wiki/User:Ayyoiboi"]::before, [href="/wiki/User:MegaEnderKing999"]::before
   content: ''
-  background-image: url('https://vignette.wikia.nocookie.net/central/images/5/50/Badge-DiscussionsModerator.svg')
+  background-image: url(display-badges-url("threadmoderator"))
