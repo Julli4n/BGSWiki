@@ -1,3 +1,5 @@
+// We use triple slash directives here as 
+// Deno bundle would not like it if we just imported
 /// <reference path="https://deno.land/x/domtype/mod.ts" />
 /// <reference path="https://esm.sh/types-mediawiki" />
 /// <reference path="https://esm.sh/@types/jquery" />
