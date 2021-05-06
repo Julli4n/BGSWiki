@@ -27,7 +27,7 @@ export default function StatsCalculator(element: Element) {
           }
           const original = parseInt(spans[i].getAttribute("data-original") ?? "0");
           const sep = spans[i].getAttribute("data-sep");
-          if (!isNaN(original) && !isNaN(parseInt(enchant.value)) && !isNaN(parseInt(level.value))) {
+          if (!isNaN(original) && !isNaN(parseInt(enchant.value ?? "0")) && !isNaN(parseInt(level.value ?? "1"))) {
             const headers = infobox.getElementsByClassName("pi-header");
             if (calculateStat(parseInt(level.value), parseInt(enchant.value), original) == original) {
               for (let a = 0; a < headers.length; a++) {
