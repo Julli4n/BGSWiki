@@ -27,7 +27,9 @@ export default function StatsCalculator(element: Element) {
           }
           const original = parseInt(spans[i].getAttribute("data-original") ?? "0");
           const sep = spans[i].getAttribute("data-sep");
-          if (!isNaN(original) && !isNaN(parseInt(enchant.value !== "" ? enchant.value: "0")) && !isNaN(parseInt(level.value !== "" ? level.value : "1"))) {
+          const enchantValue = parseInt(enchant.value !== "" ? enchant.value: "0");
+          const levelValue = parseInt(level.value !== "" ? level.value : "1");
+          if (!isNaN(original) && !isNaN(enchantValue) && !isNaN(levelValue)) {
             const headers = infobox.getElementsByClassName("pi-header");
             if (calculateStat(parseInt(level.value), parseInt(enchant.value), original) == original) {
               for (let a = 0; a < headers.length; a++) {
@@ -49,7 +51,7 @@ export default function StatsCalculator(element: Element) {
               }
             }
             spans[i].innerHTML = sep +
-              commafy(calculateStat(parseInt(level.value), parseInt(enchant.value), original));
+              commafy(calculateStat(levelValue, enchantValue, original));
           }
         }
       },
