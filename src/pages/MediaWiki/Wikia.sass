@@ -1,0 +1,655 @@
+/* 
+ *- MediaWiki:Wikia.css from the Bubble Gum Simulator Wiki on Fandom. https://bubble-gum-simulator.fandom.com
+ *- Redistribution and reference is permitted as long as proper attribution is given (per CC BY-SA), but direct re-usage is not recommended as this CSS style sheet was and is created specifically for the Bubble Gum Simulator Wiki
+ *- See https://www.fandom.com/licensing for more information about licensing
+
+/****----------[ Imports ]----------***
+@import "https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomizedLoadingScreens.css&only=styles"
+
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomizedTabs/tabbers.css&only=styles"
+
+@font-face
+  font-family: "ComicNeue Angular"
+  src: url("https://cdn.glitch.com/207026e1-92a9-4ad8-be01-db8e3723ef19%2FComicNeue-Angular-Bold.woff2?v=1580574190904")
+
+/****----------[ Keyframes ]----------***
+@-webkit-keyframes rainbow
+  0%
+    color: #ec59ee
+
+  20%
+    color: #ff6d72
+
+  40%
+    color: #f1d04c
+
+  60%
+    color: #7fee69
+
+  80%
+    color: #55d5ee
+
+  100%
+    color: #596df9
+
+@keyframes rainbow
+  0%
+    color: #ec59ee
+
+  20%
+    color: #ff6d72
+
+  40%
+    color: #f1d04c
+
+  60%
+    color: #7fee69
+
+  80%
+    color: #55d5ee
+
+  100%
+    color: #596df9
+
+@-webkit-keyframes allC
+  0%
+    color: #FF00E6
+
+  20%
+    color: #FF0000
+
+  40%
+    color: #FF7E15
+
+  60%
+    color: #D7FFF7
+
+  80%
+    color: #EED441
+
+  100%
+    color: #CD4A00
+
+@keyframes allC
+  0%
+    color: #FF00E6
+
+  20%
+    color: #FF0000
+
+  40%
+    color: #FF7E15
+
+  60%
+    color: #D7FFF7
+
+  80%
+    color: #EED441
+
+  100%
+    color: #CD4A00
+
+@keyframes topnav-Dropdown
+  0%
+    opacity: 0
+    top: 30px
+
+  100%
+    opacity: 1
+    top: 40px
+
+@-webkit-keyframes topnav-Dropdown
+  0%
+    opacity: 0
+    top: 30px
+
+  100%
+    opacity: 1
+    top: 40px
+
+@keyframes Dropdown
+  0%
+    opacity: 0
+    transform: translateX(-10px)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+@-webkit-keyframes Dropdown
+  0%
+    opacity: 0
+    transform: translateX(-10px)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+@keyframes global-Dropdown
+  0%
+    opacity: 0
+    top: 45px
+
+  100%
+    opacity: 1
+
+@-webkit-keyframes global-Dropdown
+  0%
+    opacity: 0
+    top: 45px
+
+  100%
+    opacity: 1
+
+@keyframes contribution-Dropdown
+  0%
+    opacity: 0
+    top: 25px
+
+  100%
+    opacity: 1
+    top: 35px
+
+@-webkit-keyframes contribution-Dropdown
+  0%
+    opacity: 0
+    top: 25px
+
+  100%
+    opacity: 1
+    top: 35px
+
+@-webkit-keyframes searchsuggestions-Dropdown
+  0%
+    top: 80%
+    opacity: 0
+
+  100%
+    top: calc(1px+100%)
+    opacity: 1
+
+@keyframes searchsuggestions-Dropdown
+  0%
+    top: 80%
+    opacity: 0
+
+  100%
+    top: calc(1px+100%)
+    opacity: 1
+
+@keyframes rainbow2
+  14.28571428571429%
+    color: #FF0000
+
+  28.57142857142857%
+    color: #FFA500
+
+  42.85714285714286%
+    color: #FFFF00
+
+  57.14285714285714%
+    color: #008000
+
+  71.42857142857143%
+    color: #00FFFF
+
+  85.71428571428571%
+    color: #4400FF
+
+  100%
+    color: #9900FF
+
+@-webkit-keyframes rainbow2
+  14.28571428571429%
+    color: #FF0000
+
+  28.57142857142857%
+    color: #FFA500
+
+  42.85714285714286%
+    color: #FFFF00
+
+  57.14285714285714%
+    color: #008000
+
+  71.42857142857143%
+    color: #00FFFF
+
+  85.71428571428571%
+    color: #4400FF
+
+  100%
+    color: #9900FF
+
+/****----------[ Global CSS ]----------***
+
+\::-webkit-scrollbar, ::-webkit-scrollbar-track, .article-comm-text::-webkit-scrollbar, .msg-body::-webkit-scrollbar, .article-comm-text::-webkit-scrollbar-track, .msg-body::-webkit-scrollbar-track, .rail-module, .module
+  background: #fff !important
+
+.SpeechBubble
+  .speech-bubble-message, &.even .speech-bubble-message
+    background: #fff !important
+
+.rail-module, .module
+  border-radius: 10px
+  padding: 5%
+  border: 0.7px solid #7a7979 !important
+
+/*body.background-image { background: url("https://media.discordapp.net/attachments/619364733136404481/783110169638469642/unknown.png") 0% 0% / cover no-repeat; }
+
+.mw-special-ApiHelp
+  background: none !important
+
+\::-webkit-scrollbar
+  width: 0.75vmax
+
+\::-webkit-scrollbar-thumb
+  background: #FD95F1 !important
+
+  &:hover
+    background: #FD76BF !important
+
+.speech-bubble-message
+  &::after, &::before
+    display: none
+
+.mw-headline
+  font-weight: bold
+
+.wds-community-header__wordmark img
+  padding: 2px
+  transition: 0.4s linear all
+
+  &:hover
+    transform: scale(1.05)
+    transition: 0.4s linear all
+
+.wds-community-header__counter
+  color: #fff !important
+
+.wds-community-header
+  .wds-button.wds-is-secondary
+    border-color: #e8e8e8 !important
+    color: #e8e8e8 !important
+
+    svg
+      fill: #e8e8e8 !important
+
+  &::before
+    background: linear-gradient(to right, rgba(89, 132, 194, 0.5), rgba(89, 132, 194, 0.5)), linear-gradient(to left, rgba(89, 132, 194, 0) 200px, #5984c2 380px, rgb(255, 166, 217) 775px) !important
+
+/***----------[ Community Header ]----------**
+
+.wds-icon-tiny
+  transition: transform 0.2s
+
+.wds-community-header .wds-community-header__local-navigation .wds-tabs .wds-tabs__tab .wds-dropdown .wds-dropdown__content
+  animation: topnav-Dropdown 0.2s
+  -webkit-animation: topnav-Dropdown 0.2s
+  -moz-animation: topnav-Dropdown 0.2s
+
+  .wds-dropdown-level-2__content
+    animation: Dropdown 0.2s
+    -webkit-animation: Dropdown 0.2s
+    -moz-animation: Dropdown 0.2s
+
+.page-header .page-header__contribution .page-header__contribution-buttons .wds-button-group .wds-dropdown .wds-dropdown__content, #PageHeader #EditMessageWallGreeting .wds-button-group .wds-dropdown .wds-dropdown__content, .wds-community-header__wiki-buttons .wds-dropdown .wds-dropdown__content
+  -webkit-animation: contribution-Dropdown 0.2s
+  -moz-animation: contribution-Dropdown 0.2s
+  animation: contribution-Dropdown 0.2s
+
+.wds-dropdown__content.wds-global-navigation__search-suggestions
+  -webkit-animation: searchsuggestions-Dropdown 0.25s
+  -moz-animation: searchsuggestions-Dropdown 0.25s
+  animation: searchsuggestions-Dropdown 0.25s
+
+.wds-dropdown
+  &::after, &::before
+    display: none !important
+
+/***----------[ Custom Infobox Styling ]----------**
+
+.pi-title
+  border-top-right-radius: 10px
+  border-top-left-radius: 10px
+
+.portable-infobox
+  border-radius: 10px
+  margin-right: 0.4em
+  filter: drop-shadow(0 0 3px #000)
+  -webkit-filter: drop-shadow(0 0 3px #000)
+
+  img
+    transition: transform 0.5s
+
+    &:hover
+      transform: scale(1.04)
+      transition: transform 0.5s
+
+  button
+    cursor: pointer
+    background: var(--themed-button-background)
+    border-color: transparent !important
+    border-radius: 3px !important
+    font-family: Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif !important
+    font-size: 10px !important
+    font-weight: bold
+    text-transform: uppercase
+    line-height: 19px !important
+    padding: 7px 18px !important
+    color: #000
+    transition: ALL 0.25s
+
+    &:hover, &.active, &:active
+      transition: ALL 0.25s
+      background: var(--themed-button-background--hover) !important
+
+.calculator
+  label
+    font-family: "ComicNeue Angular"
+    font-size: 16px
+
+  input
+    &:focus
+      transition: ALL 0.4s
+      border: 2px solid #57d8ff
+
+    transition: ALL 0.4s
+    border-radius: 8px
+    margin-bottom: 5px
+    text-align: center
+    background-color: #fff
+    border: 2px solid #7a7a7a
+    color: #000
+    font-family: "ComicNeue Angular"
+    font-size: 16px
+    outline: none
+
+/****----------[ Special Pages ]----------***
+/***----------[ Create a Page ]----------**
+
+.create-page-dialog__proposals
+  display: none
+
+#CreatePageDialogSub::after
+  content: 'Follow the rules before creating an article.'
+  color: #ff0400
+  white-space: pre
+
+/****----------[ Main Page ]----------***
+
+.navi
+  transition: transform 0.15s
+  padding: 10px
+  z-index: 2
+
+  &:hover
+    transform: scale(1.115)
+    transition: transform 0.15s
+
+  .navichange
+    visibility: hidden
+    z-index: 1
+
+  .tooltiptextright, .tooltiptextleft
+    visibility: hidden
+    width: 120px
+    background-color: #EC74B9
+    color: #fff
+    text-align: center
+    border-radius: 20px
+    padding: 2px
+    position: absolute
+    z-index: 55
+    bottom: 100px
+    border: 2px solid #fff
+    font-size: 23px
+    font-family: "ComicNeue Angular"
+
+  .tooltiptextright
+    left: 100px
+
+  .tooltiptextleft
+    right: 100px
+
+  &:hover
+    .tooltiptextright, .tooltiptextleft, .navichange
+      visibility: visible
+
+.pi-item .imageoverlay
+  margin-left: -14px
+  margin-top: -10px
+  margin-bottom: -10px
+
+/****----------[ Item Tables ]----------***
+
+.itemhover
+  .text
+    font-family: "ComicNeue Angular"
+    font-size: 20px
+
+  .text2
+    visibility: hidden
+    z-index: 2
+    position: absolute
+    font-family: "ComicNeue Angular"
+    box-shadow: 0px 0px 0px 5px #2bf8ff
+    border-radius: 5px
+    padding-left: 0.5%
+    padding-right: 0.5%
+    padding-bottom: 0.5%
+    padding-top: 0.5%
+    background-color: #fff
+    text-align: center
+
+  &:hover .text2
+    visibility: visible
+
+/****----------[ Other ]----------***
+
+.invertIMG
+  filter: hue-rotate(-180deg)
+
+.darken
+  filter: brightness(0)
+
+.bgsHeader
+  .ajax-poll
+    border: none !important
+
+  display: inherit !important
+
+.bgsTable
+  box-shadow: 0px 0px 0px 10px #2bf8ff
+  border-radius: 10px
+  background-color: #fff
+  margin-left: 10px
+  width: 40%
+  margin-top: 10px
+
+.rainbow2
+  -webkit-animation: rainbow2 5s infinite
+  -moz-animation: rainbow2 5s infinite
+  -ms-animation: rainbow2 5s infinite
+  animation: rainbow2 5s infinite
+
+.mw-editsection
+  display: none !important
+
+/***----------[ Item Multipliers ]----------**
+
+.Jewel, .Bubble, .Coin, .Candy, .Candy-1, .Block, .Shell, .Pearl, .Star, .Magma, .CandyC, .Gift, .Ticket, .Rainbows, .Crystal, .Flower, .Token, .Treat, .Bell, .Silver, .All
+  text-shadow: black 0 0 1px
+  font-size: 24px
+  -webkit-text-stroke: 0.8px black
+  font-family: "ComicNeue Angular"
+
+.Jewel
+  color: #9c00fe
+
+.Bubble
+  color: #e082ff
+
+.Coin
+  color: #ffc107
+
+.Candy
+  color: #EB0204
+
+.Candy-1
+  color: #FF00E6
+
+.Block
+  color: #FF0000
+
+.Shell
+  color: #FF7E15
+
+.Pearl
+  color: #D7FFF7
+
+.Star
+  color: #EED441
+
+.Magma
+  color: #CD4A00
+
+.CandyC
+  color: #F5953E
+
+.Gift
+  color: #F7414A
+
+.Ticket
+  color: #E7741B
+
+.Rainbows
+  color: #FF2929
+
+.Crystal
+  color: #FF00E6
+
+.Flower
+  color: #EB0204
+
+.Token
+  color: #C57DFF
+
+.Treat
+  color: #FF6E00
+
+.Bell
+  color: #F9D44E
+
+.Silver
+  color: #FFFFFF
+
+.All
+  -webkit-animation: allC 5s infinite
+  -moz-animation: allC 5s infinite
+  -ms-animation: allC 5s infinite
+  animation: allC 5s infinite
+
+/***----------[ Item Rarities ]----------**
+
+.mythic, .legendary, .epic, .rare, .unique, .common
+  text-shadow: black 0 0 1px
+  font-size: 24px
+  -webkit-text-stroke: 0.8px black
+  font-family: "ComicNeue Angular"
+
+.mythic
+  color: #6D28EA
+
+.legendary
+  -webkit-animation: rainbow 5s infinite
+  -moz-animation: rainbow 5s infinite
+  -ms-animation: rainbow 5s infinite
+  animation: rainbow 5s infinite
+
+.epic
+  color: #a86aff
+
+.rare
+  color: #ff5858
+
+.unique
+  color: #ffb17c
+
+.common
+  color: #ffffff
+
+/***----------[ Staff Profile Badges ]----------**
+/* Credit to https://adoptme.fandom.com/wiki/MediaWiki:Staff.css
+
+/* Creating space for any username under specified class(es)
+
+[class^="mw-userlink"]::before, [class^="userlink"]:not(.wds-is-unread)::before, [class^="EntityHeader_name__2oRXg"]::before
+  width: 20px !important
+  height: 20px !important
+  background-size: cover !important
+  margin-right: 2px !important
+  vertical-align: sub !important
+  display: inline-block !important
+
+/* Append Staff Icon for Signatures
+
+/* Append Staff Icon for Comments
+
+/* Recent Wiki Activities
+
+.activity-module .edit-info .edit-info-user
+  display: unset
+  overflow: unset
+  text-overflow: unset
+
+.edit-info-user::before
+  width: 16px !important
+  height: 16px !important
+  background-size: cover !important
+  margin-right: 2px !important
+  vertical-align: sub !important
+  display: inline-block !important
+
+/* Bureaucrats
+
+[href="/wiki/User:Beckaaa"]::before, [href="/wiki/User:TotallyNotJullian"]::before, [href="/wiki/User:GpaSarge6"]::before, [href="/wiki/User:Bawp32"]::before
+  content: ''
+  background-image: url('https://static.wikia.nocookie.net/bubble-gum-simulator/images/2/27/Badge-Bureaucrat.png')
+
+/* Administrators
+
+[href="/wiki/User:TheSeal27"]::before
+  content: ''
+  background-image: url('https://static.wikia.nocookie.net/bubble-gum-simulator/images/0/00/TheSeal27_with_Badge-Admin.png')
+
+[href="/wiki/User:Mr.Bladen"]::before, [href="/wiki/User:Jojoboz123"]::before, [href="/wiki/User:IAmaPersonthatExists"]::before, [href="/wiki/User:BlueSalsa"]::before, [href="/wiki/User:RaptorZeraora"]::before
+  content: ''
+  background-image: url('https://vignette.wikia.nocookie.net/central/images/1/12/Badge-Admin.svg')
+
+/* Content Moderator
+
+[href="/wiki/User:Jibs23"]::before, [href="/wiki/User:SandyDice"]::before, [href="/wiki/User:Hypxr"]::before
+  content: ''
+  background-image: url('https://vignette.wikia.nocookie.net/central/images/e/ef/Badge-ContentModerator.svg')
+
+/* Discussion Moderator
+
+[href="/wiki/User:AbsolutelyAdorkable"]::before, [href="/wiki/User:DefildPlaysThinks"]::before, [href="/wiki/User:Drei2k5"]::before, [href="/wiki/User:Ayyoiboi"]::before, [href="/wiki/User:MegaEnderKing999"]::before
+  content: ''
+  background-image: url('https://vignette.wikia.nocookie.net/central/images/5/50/Badge-DiscussionsModerator.svg')
+
+/* "Special:Community" Adjustments
+/* Credit to https://adoptme.fandom.com/wiki/MediaWiki:Staff.css
+
+.page-Special_Community [class^="userlink"]
+  &::before
+    width: unset !important
+    height: unset !important
+    background-size: unset !important
+    margin-right: unset !important
+    vertical-align: unset !important
+
+  display: inline-block !important
