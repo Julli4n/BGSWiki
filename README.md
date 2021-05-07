@@ -52,7 +52,7 @@ Scripts and style sheets will be compiled and renamed to their `.js` and `.css` 
 * Stylesheets will only be put through the SASS compiler to be rendered.
 
 ## Contributing
-All contributions are welcome, as long as they follow[Fandom's Terms of Use](https://www.fandom.com/terms-of-use), and [Bubble Gum Simulator Wiiki's rules](https://bubble-gum-simulator.fandom.com/wiki/Community:Rules).
+All contributions are welcome, as long as they follow [Fandom's Terms of Use](https://www.fandom.com/terms-of-use), and [Bubble Gum Simulator Wiki's rules](https://bubble-gum-simulator.fandom.com/wiki/Community:Rules).
 
 ### Recommended Visual Studio Code Extensions
 * [Deno](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno) by denoland
