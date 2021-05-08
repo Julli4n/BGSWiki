@@ -2,6 +2,7 @@
 	"recommendations": [
 	  "denoland.vscode-deno", // For .ts and .js Deno lint on the web
 	  "RoweWilsonFrederiskHolme.wikitext", // For wikitext syntax highlighting
-	  "Syler.sass-indented" // For SASS syntax highlighting
+	  "Syler.sass-indented", // For SASS syntax highlighting and lint
+	  "trixnz.vscode-lua" // For lua lint
 	]
 }  

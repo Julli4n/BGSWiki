@@ -1,4 +1,6 @@
 {
     "deno.enable": true,
-    "deno.lint": true
+    "deno.lint": true,
+    "sass.lint.enable": true,
+    "lua.targetVersion": "5.3"
 }
