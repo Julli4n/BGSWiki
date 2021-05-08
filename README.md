@@ -60,4 +60,4 @@ All contributions are welcome, as long as they follow [Fandom's Terms of Use](ht
 * [Wikitext](https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext) by Rowe Wilson Frederisk Holme
   * Wikitext syntax highlighting
 * [SASS](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) by Syler
-  * SASS syntax hightlighting 
+  * SASS syntax highlighting 
