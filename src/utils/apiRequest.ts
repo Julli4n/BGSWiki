@@ -1,4 +1,4 @@
-import "https://esm.sh/@types/jquery";
+import "https://esm.sh/@types/jquery"
 
 const baseUrl = "https://bgswiki.glitch.me/api";
 export default function apiRequest(
@@ -6,7 +6,7 @@ export default function apiRequest(
     path: string,
     method: string,
     headers: JQuery.PlainObject<string | null | undefined> | undefined,
-    data: string | JQuery.PlainObject<any> | undefined
+    data: string | JQuery.PlainObject<unknown> | undefined
   ) {
     $.ajax({
       async: true,
@@ -21,4 +21,4 @@ export default function apiRequest(
     }).fail(function (data) {
       callback(true, data);
     });
-};
+}

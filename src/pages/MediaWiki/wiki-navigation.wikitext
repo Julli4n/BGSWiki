@@ -1,0 +1,78 @@
+*|Game Content
+**Category:Items|Items
+***Category:Gum|Gum
+***Category:Flavors|Flavors
+***Category:Faces|Faces
+***Category:Pets|Pets
+***Category:Eggs|Eggs
+***Category:Hats|Hats
+***Category:Boxes|Boxes
+**Category:Pets|Pets
+***Category:Robux_Pets|Robux Pets
+***Category:Secret_Items|Secret Pets
+***Category:Rewards_Exclusive|Reward Pets
+***Category:Index_Reward_Pets|Index Reward Pets
+***Category:Unobtainable|Event/Unobtainable Pets
+***Category:Developer Exclusive Pets|Developer Exclusive Pets
+**Category:Worlds|Worlds
+***Starter_Area|Main World
+***Candy_Land_Starter_Area|Candy Land
+***Toy_Land_Starter_Area|Toy Land
+***Beach_World_Starter_Area|Beach World
+***Atlantis_Starter_Area|Atlantis
+***Rainbow_Land_Starter_Area|Rainbow Land
+***Underworld_Starter_Area|Underworld
+***Mystic_Forest_Starter_Area|Mystic Forest
+***Shadow_Realm|Shadow Realm
+**Category:2018 Event Worlds|2018 Event Worlds
+***Christmas Starter Area (2018)|Christmas 2018 Event
+**Category:2019 Event Worlds|2019 Event Worlds
+***Halloween_Area_(2019)|Halloween 2019 Event
+***Christmas_Starter_Area_(2019)|Christmas 2019 Event
+**Category:2020 Event Worlds|2020 Event Worlds
+***Circus_Event_Area|Circus Event
+***St_Patrick's_Area_(2020)|St Patrick's 2020 Event
+***Easter_2020_Area|Easter 2020 Event
+***Spring_2020_Area|Spring 2020 Event
+***Carnival_Event|Carnival Event
+***Fall_Event|Fall Event
+***Halloween_Area_(2020)|Halloween 2020 Event
+***Christmas_Starter_Area_(2020)|Christmas 2020 Event
+**Category:2021 Event Worlds|2021 Event Worlds
+***Valentine's_Area_(2021)|Valentine's 2021 Event
+***St_Patrick's_Area_(2021)|St. Patrick's 2021 Event
+***Easter_2021_Area|Easter 2021 Event
+**Category:Events|Event Eggs (1)
+***New_Year_Egg|New Year's Event
+***100K_Egg|100K Event
+***Valentine_Egg|2019 Valentine's Event
+***Lucky_Egg|St Patrick's 2019 Event 
+***300M_Egg|300M Event
+***Easter_Egg|Easter 2019 Event
+***Summer_Egg|Summer Event
+***400M_Egg|400M Event
+***July_4th_Egg|July 4th Event
+***500M_Egg|500M Event
+**Category:Events|Event Eggs (2)
+***600M_Egg|600M Event
+***Valentine_Egg_(2020)|2020 Valentine's Event
+***700M_Egg|700M Event
+***50th_Update_Egg|50th Update Event
+***800M_Egg|800M Event
+***Vacation_Egg|Summer 2020 Event
+***900M_Egg|900M Event
+**Category:Miscellaneous|Miscellaneous
+***Codes
+***Gamepasses
+***Changelog
+***Prizes
+***Bubble Pass
+***Titles
+***Traveling Merchant
+*|Trading
+**https://bubble-gum-simulator.fandom.com/f?catId=3100000000000000033|Trade
+**https://bubble-gum-simulator.fandom.com/f?catId=4400000000000000007|Value Discussion (W/L Posts)
+*Special:Community|Community
+**Community:Rules|Rules
+**Report_Center|Report Center
+**Community:Staff|Staff
