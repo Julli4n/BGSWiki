@@ -1,0 +1,1 @@
+<span class="rainbow2" style="font-weight:{{{fw|normal}}};font-size:{{{fs|14}}}px">{{{1}}}</span><noinclude>[[Category:Design templates]]</noinclude>

@@ -1,0 +1,21 @@
+<infobox>
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image1">
+      <default>{{PAGENAME}}.png</default>
+    <caption source="caption1"/>
+  </image>
+  <data source="effect">
+    <label>Effect</label>
+  </data>
+</infobox>
+<noinclude>
+Example usage:<pre>
+{{Potion Infobox
+|title1=Example
+|image1=Example
+|effect=Example
+}}
+</pre>
+</noinclude>

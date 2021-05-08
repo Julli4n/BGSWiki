@@ -1,0 +1,1 @@
+<div style="width:100%; text-align:center;">If you were looking for the article about the '''''{{{1}}}''''', then see ''[[{{{2}}}]]''.</div><noinclude>[[Category:Navigation templates]]</noinclude>

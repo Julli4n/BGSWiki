@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Hat_Infobox/Utilities:GetHatStat|canBeUnboxed|{{{1}}}}}</includeonly>

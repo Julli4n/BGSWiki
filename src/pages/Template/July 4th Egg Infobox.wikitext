@@ -1,0 +1,45 @@
+<infobox>
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+    <panel name="statistics">
+      <section name="normal">
+        <label>Normal</label>
+        <image source="image1">
+            <default>Red Egg.png</default>
+          <caption source="caption1"/>
+        </image>
+       <data source="cost">
+         <label>Cost</label>
+         <default>{{Jewel}} <span class="Jewel">125,000</span></default>
+       </data>
+        <group>
+          <data source="world">      
+                <label>World</label>
+                <default>[[Starter Area]]</default>
+          </data>
+         </group>
+      </section>
+      <section name="color_Change">
+        <label>Color Change</label>
+        <image source="image2">
+            <default>July4thGif.gif</default>
+          <caption source="caption2"/>
+        </image>
+        <data source="image2">
+            <format></format>
+        </data>
+        <data source="cost">
+          <label>Cost</label>
+          <default>{{Jewel}} <span class="Jewel">125,000</span></default>
+       </data>
+        <group>
+    <data source="world">
+        <label>World</label>
+        <default>[[Starter Area]]</default>
+             </data> 
+             </group>
+         </section> 
+    </panel>
+</infobox>
+<noinclude>

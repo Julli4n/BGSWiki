@@ -1,0 +1,1 @@
+<div style="float:right;border:1px solid #000;color:#000"><div style="text-align:center">'''Shortcuts'''</div><div style="padding:10px 30px 10px 30px">{{{1}}}</div></div><noinclude>[[Category:Design templates]]</noinclude>

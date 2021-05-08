@@ -1,0 +1,1 @@
+<div style="padding:8px;margin-bottom:4px;background-color:#60AAEC;border:4px solid #075696;border-radius:10px;text-align:center"><font size="4">'''🚨 IMPORTANT NOTICE 🚨'''</font><br>This is not an official page on the Wiki<br>This page could include '''false information''', or '''fan-made ideas/art'''.</div><noinclude>[[Category:Notice templates]]</noinclude>

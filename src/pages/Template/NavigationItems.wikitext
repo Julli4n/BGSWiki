@@ -1,0 +1,17 @@
+{| align="center"
+|- 
+! {{Navigation|file=Normal Gum.png|link=Category:Gum|text=right|text_label=Gum}}
+! {{Navigation|file=Bubble Gum.png|link=Category:Flavors|text=right|text_label=Flavors}}
+! {{Navigation|file=Demonlord.png|link=Pets|text=left|text_label=Pets}} 
+! {{Navigation|file=Stitches.png|link=Category:Faces|text=left|text_label=Faces}}
+|-
+! {{Navigation|file=Corrupted Egg.png|link=Eggs|text=right|text_label=Eggs}}
+! {{Navigation|file=Santa Paws.png|link=Hats|text=right|text_label=Hats}}
+! {{Navigation|file=Twitter Icon2.png|link=Codes|text=left|text_label=Codes}}
+! {{Navigation|file=Corrupt Glitch.png|link=Category:Secret Items|text=left|text_label=Secret Items}}
+|-
+! {{Navigation|file=Christmas Box.png|link=Category:Boxes|text=right|text_label=Boxes}} 
+! {{Navigation|file=Chromatic Cube.png|link=Category:Index Reward Pets|text=right|text_label=Index Reward Pets}}
+! {{Navigation|file=Titles Icon.png|link=Titles|text=left|text_label=Titles}} 
+! {{Navigation|file=Bubble Pass.png|link=Bubble Pass|text=left|text_label=Bubble Pass}} 
+|}

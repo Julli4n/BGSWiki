@@ -1,0 +1,52 @@
+<includeonly>{{#invoke:Hat_Infobox|CreateInfobox|title = {{#if:{{{title1|}}}|{{{title1}}}|{{PAGENAME}}}}|image1 = {{{image1}}}|HatName = {{#if:{{{HatName|}}}|{{{HatName}}}|{{PAGENAME}}}}|caption1 = {{{caption1}}}|Namespace = {{NAMESPACE}}|chance = {{{chance}}}|rarity = {{{rarity}}}|type = {{{type}}}|bubble = {{{bubble}}}|coin = {{{coin}}}|jewel = {{{jewel}}}|Candy = {{{Candy}}}|Candy-1 = {{{Candy-1}}}|Block = {{{Block}}}|Shell = {{{Shell}}}|Pearl = {{{Pearl}}}|Star = {{{Star}}}|Magma = {{{Magma}}}|Crystal = {{{Crystal}}}|All = {{{All}}}|CandyC = {{{CandyC}}}|Gift = {{{Gift}}}|Ticket = {{{Ticket}}}|Flower = {{{Flower}}}|Rainbow = {{{Rainbow}}}}}</includeonly>
+<noinclude>
+== Example Usage ==
+<pre>
+{{Hat_Infobox|title1 = ObscureEntity|rarity = Legendary|image1 = ObscureEntity.png|caption1 = An image caption!bubble = 10|coin = 10|jewel = 10}}
+</pre>
+== Documentation ==
+* '''title'''
+** The title to appear above the infobox, can also be title1.
+* '''image1'''
+** The normal image for the infobox.
+* '''caption1'''
+** The caption to appear below image1.
+* '''rarity''' 
+** The rarity of the hat to appear below the image, must be either 'Common', 'Unique', 'Rare', 'Epic' or 'Legendary', not case-sensitive.
+* '''chance'''
+** The chance of the hat to appear below everything else.
+* '''bubble'''
+** The Bubble stat to appear in stats.
+* '''coin'''
+** The Coin stat to appear in stats.
+* '''jewel'''
+** The Jewel stat to appear in stats.
+* '''Candy'''
+** The Candy Canes stat to appear in stats.
+* '''Candy-1'''
+** The Candy stat to appear in stats.
+* '''Block'''
+** The Block stat to appear in stats.
+* '''Shell'''
+** The Shell stat to appear in stats.
+* '''Pearl'''
+** The Pearl stat to appear in stats.
+* '''Star'''
+** The Star stat to appear in stats.
+* '''Magma'''
+** The Magma stat to appear in stats.
+* '''CandyC'''
+** The Candy Corn stat to appear in stats.
+* '''Gift'''
+** The Present stat to appear in stats.
+* '''All'''
+** The All stat to appear in stats.
+* '''Ticket'''
+** The Ticket stat to appear in stats.
+* '''Rainbow'''
+** The Rainbow stat to appear in stats.
+* '''Crystal'''
+** The Crystal stat to appear in stats.
+* '''Flower'''
+** The Flower stat to appear in stats.
+</noinclude>

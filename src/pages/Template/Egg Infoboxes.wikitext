@@ -1,0 +1,18 @@
+<includeonly>{{#invoke:Egg_Infobox|CreateInfobox|title = {{#if:{{{title1|}}}|{{{title1}}}|{{PAGENAME}}}}|image1 = {{{image1}}}|EggName = {{#if:{{{EggName|}}}|{{{EggName}}}|{{PAGENAME}}}}|caption1 = {{{caption1}}}|Namespace = {{NAMESPACE}}|cost= {{{cost}}}|location = {{{location}}}}}</includeonly>
+<noinclude>
+== Example Usage ==
+<pre>
+{{Egg_Infoboxes|title1 = Common Egg|image1 = Common Egg.png|caption1 = An image caption!cost = Coin400|location = Overworld}}
+</pre>
+== Documentation ==
+* '''title'''
+** The title to appear above the infobox, can also be title1.
+* '''image1'''
+** The normal image for the infobox.
+* '''caption1'''
+** The caption to appear below image1.
+* '''cost'''
+** The cost of the egg, prepended by the stat multiplier/currency such as Coin.
+* '''location'''
+** The location of the egg, will become a hyperlink to the article.
+</noinclude>

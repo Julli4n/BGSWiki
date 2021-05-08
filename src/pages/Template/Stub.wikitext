@@ -1,0 +1,2 @@
+{{Frame|color = ee4300|content = <div style="border-bottom: 0.1px solid #a6a6a6;"><center><big> 
+      🚨'''THIS ARTICLE IS A STUB'''🚨</big></center></div><center>You can help the Bubble Gum Simulator Wiki by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding] it. {{#if:{{{reason|}}}|<br />'''Provided reason''': {{{reason}}} }}</center>}}<includeonly>[[Category:Stubs]] <br /></includeonly>

@@ -1,0 +1,29 @@
+<infobox>
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image1">
+    <caption source="caption1"/>
+  </image>
+  <data source="base_value">
+    <label>Base Value</label>
+  </data>
+  <data source="cost">
+    <label>Cost</label>
+     </data>
+  <data source="world">
+    <label>Location</label>
+  </data>
+</infobox>
+<noinclude>
+Example usage:<pre>
+{{chest Infobox
+|title1=Example
+|image1=Example
+|caption1=Example
+|base_value=Example
+|cost=Example
+|world=Example
+}}
+</pre>
+</noinclude>

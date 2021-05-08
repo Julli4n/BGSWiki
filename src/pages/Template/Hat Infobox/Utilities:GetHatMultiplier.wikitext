@@ -1,0 +1,1 @@
+{{#ifeq:{{Hat_Infobox/Utilities:DoesHatHaveStat|{{{1}}}|{{{2}}}}}|false||<span class="{{{4}}}">{{{3}}}{{formatnum:{{#invoke:Hat_Infobox/Utilities:GetHatStat|get|{{{1}}}|{{{2}}}}} }}</span>}}

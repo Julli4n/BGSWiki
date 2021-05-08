@@ -1,0 +1,5 @@
+<gallery navigation="true" hideaddbutton="true" captioncenter="center" position="center" captionalign="center" widths="100px">
+File:Rules TWC.png|<big>[[Community:Rules|Community Rules]]</big>|link=Community:Rules
+File:Trade TWC.png|<big>[https://bubble-gum-simulator.fandom.com/f?catId=3100000000000000033 Community Trading]</big>|link=Trade
+File:WL Posts TWC.png|<big>[https://bubble-gum-simulator.fandom.com/f?catId=4400000000000000007 Community W/L Posts]</big>|link=W/L Posts
+</gallery>

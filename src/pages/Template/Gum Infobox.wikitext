@@ -1,0 +1,18 @@
+<includeonly>{{#invoke:Gum_Infobox|CreateInfobox|title = {{#if:{{{title1|}}}|{{{title1}}}|{{PAGENAME}}}}|image1 = {{{image1}}}|GumName = {{#if:{{{GumName|}}}|{{{GumName}}}|{{PAGENAME}}}}|caption1 = {{{caption1}}}|Namespace = {{NAMESPACE}}|cost= {{{cost}}}|capacity = {{{capacity}}}}}</includeonly>
+<noinclude>
+== Example Usage ==
+<pre>
+{{Gum_Infobox|title1 = Normal Gum|image1 = Normal Gum.png|caption1 = An image caption!cost = Coin400|capacity = 500}}
+</pre>
+== Documentation ==
+* '''title'''
+** The title to appear above the infobox, can also be title1.
+* '''image1'''
+** The normal image for the infobox.
+* '''caption1'''
+** The caption to appear below image1.
+* '''cost'''
+** The cost of the gum, prepended by the stat multiplier/currency such as Coin.
+* '''capacity'''
+** The capacity of the gum.
+</noinclude>

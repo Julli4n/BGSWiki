@@ -1,0 +1,18 @@
+<includeonly>{{#invoke:Face_Infobox|CreateInfobox|title = {{#if:{{{title1|}}}|{{{title1}}}|{{PAGENAME}}}}|image1 = {{{image1}}}|FaceName = {{#if:{{{FaceName|}}}|{{{FaceName}}}|{{PAGENAME}}}}|caption1 = {{{caption1}}}|Namespace = {{NAMESPACE}}|cost = {{{cost}}}|bubble = {{{bubble}}}}}</includeonly>
+<noinclude>
+== Example Usage ==
+<pre>
+{{Faces_Infobox|title1 = Normal Face|image1 = Normal Face.png|caption1 = An image caption!cost = Coin400|bubble = 500}}
+</pre>
+== Documentation ==
+* '''title'''
+** The title to appear above the infobox, can also be title1.
+* '''image1'''
+** The normal image for the infobox.
+* '''caption1'''
+** The caption to appear below image1.
+* '''cost'''
+** The cost of the face, prepended by the stat multiplier/currency such as Coin.
+* '''bubble'''
+** The bubble increment of the face.
+</noinclude>

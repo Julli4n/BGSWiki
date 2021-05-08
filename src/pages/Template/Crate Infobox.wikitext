@@ -1,0 +1,18 @@
+<includeonly>{{#invoke:Crate_Infobox|CreateInfobox|title = {{#if:{{{title1|}}}|{{{title1}}}|{{PAGENAME}}}}|image1 = {{{image1}}}|CrateName = {{#if:{{{CrateName|}}}|{{{CrateName}}}|{{PAGENAME}}}}|caption1 = {{{caption1}}}|Namespace = {{NAMESPACE}}|cost= {{{cost}}}|location = {{{location}}}}}</includeonly>
+<noinclude>
+== Example Usage ==
+<pre>
+{{Hat_Infobox|title1 = Basic Box|image1 = Basic Box.png|caption1 = An image caption!cost = Coin400|location = Overworld}}
+</pre>
+== Documentation ==
+* '''title'''
+** The title to appear above the infobox, can also be title1.
+* '''image1'''
+** The normal image for the infobox.
+* '''caption1'''
+** The caption to appear below image1.
+* '''cost'''
+** The cost of the crate, prepended by the stat multiplier/currency such as Coin.
+* '''location'''
+** The location of the crate, will become a hyperlink to the article.
+</noinclude>

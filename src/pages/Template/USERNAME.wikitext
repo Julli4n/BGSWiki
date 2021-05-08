@@ -1,0 +1,1 @@
+<span class="InputUsername">{{#if:{{{content|}}}|{{{content}}}}}</span>

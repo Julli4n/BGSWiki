@@ -1,0 +1,7 @@
+{|style="padding: 8px; margin-bottom:4px; background-color: #60AAEC; border: 4px solid #075696; width: 100%; border-radius:10px;"
+|- 
+|align="center"|<font size="4">'''🚨 IMPORTANT NOTICE 🚨'''</font><br>As of this notice being up, we do not all the information about this pet.
+|- 
+|align="center"|
+As of now, we are not able to provide the '''{{{1}}}''' of this pet. Please remain patient while we get more information about this pet.
+|}

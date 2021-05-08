@@ -1,0 +1,1 @@
+<includeonly><div class="navi" style="background: #ff5773 !important; border-radius: 15px;">[[File:{{{file}}}|center|125px|link={{{link}}}|<nowiki> </nowiki>]]<span class="tooltiptext{{{text}}}">{{{text_label}}}</span></div></includeonly>

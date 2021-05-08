@@ -1,0 +1,58 @@
+<includeonly>
+<infobox>
+  <title source="title">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image">
+    <caption source="caption"/>
+  </image>
+  <data source="price">
+      <label>Price</label>
+      <format>{{#replace:{{{price}}}|R|{{Robux}} }}</format>
+  </data>
+  <data source="world">
+    <label>World</label>
+    <format>{{#switch:{{{world}}}|default = {{{world}}}|E = [[Starter Area|Earth]]|CW = [[Christmas Starter Area|Christmas World]]|CL = [[Candy Land Starter Area|Candy Land]]|TL = [[Toy Land Starter Area|Toy Land]]|BW = [[Beach World Starter Area|Beach World]]|A = [[Atlantis Starter Area|Atlantis]]|RL = [[Rainbow Land Starter Area|Rainbow Land]]|?? = [[?? Soon Starter Area]]}}</format>
+  </data>
+  <data source="height">
+    <label>Height</label>
+    <format>{{{height}}}m</format>
+  </data>
+  <data source="currency">
+      <label>Currency</label>
+      <format>{{#replace:{{#replace:{{{currency}}}|CurC|{{Coin}} <span class="Coin">Coins</span> }}|CurG|{{Jewel}} <span class="Jewel">Gems</span> }}</format>
+  </data>
+    <data source="music1">
+    <label>Music Track 1</label>
+  </data>
+  <data source="music2">
+    <label>Music Track 2</label>
+  </data>
+  <data source="music3">
+    <label>Music Track 3</label>
+  </data>
+  <data source="music4">
+    <label>Music Track 4</label>
+  </data>
+  <data source="inhabitants">
+    <label>Inhabitants</label>
+  </data>
+</infobox>
+[[Category:Locations]]
+</includeonly>
+<noinclude>
+Example usage:<pre>
+{{Infobox_location
+|title=Example
+|image=Example
+|caption=Example
+|height=Example
+|music1=Example
+|music2=Example
+|music3=Example
+|music4=Example
+|location=Example
+|inhabitants=Example
+}}
+</pre>
+</noinclude>

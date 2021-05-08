@@ -1,0 +1,1 @@
+<div style="width:100%; text-align:center;">If you were looking for the articles about the '''''{{{1}}}''''', then see ''[[{{{2}}}]]'' or ''[[{{{3}}}]]''.</div><noinclude>
