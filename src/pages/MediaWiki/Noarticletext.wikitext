@@ -1,0 +1,11 @@
+<div align="center">
+    ''our '''search team of doggies''' could not find the exact page you were looking for''
+    
+    <span class="plainlinks">
+        [{{fullurl:Special:Search|search={{urlencode:{{PAGENAME}}}}}} Search articles by "{{PAGENAME}}"]
+        [{{fullurl:{{FULLPAGENAMEE}}|action=edit&redlink=1}} Create this page]
+        [{{fullurl:Special:Log|page={{urlencode:{{PAGENAME}}}}}} See logs for this page]
+
+    </span>
+    [[File:Doggy.png|75px]]
+</div>
