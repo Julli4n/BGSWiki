@@ -1,4 +1,4 @@
-import "https://deno.land/x/domtype/mod.ts";
+/// <reference path="https://deno.land/x/domtype/mod.ts" />
 
 import createElement from "../utils/createElement.ts";
 import commafy from "../utils/commafy.ts";

@@ -1,6 +1,4 @@
 /// <reference path="https://deno.land/x/domtype/mod.ts" />
-import "https://esm.sh/types-mediawiki";
-import "https://esm.sh/@types/jquery";
 
 import StatsCalculator from "../../components/StatsCalculator.ts";
 // stats calculator

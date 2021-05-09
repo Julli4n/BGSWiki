@@ -1,4 +1,5 @@
-import "https://deno.land/x/domtype/mod.ts";
+/// <reference path="https://deno.land/x/domtype/mod.ts" />
+
 export default function createElement(tagName: string, data?: Record<string, unknown>) {
     const element = document.createElement(tagName);
     if (!data) return element;
