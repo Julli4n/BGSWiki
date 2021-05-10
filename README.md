@@ -60,6 +60,6 @@ All contributions are welcome, as long as they follow [Fandom's Terms of Use](ht
 * [Wikitext](https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext) by Rowe Wilson Frederisk Holme
   * Wikitext syntax highlighting
 * [SASS](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) by Syler
-  * SASS syntax highlighting and lint
+  * SASS syntax highlighting
 * [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) by trixnz
   * Lua lint and intellisense
