@@ -1,7 +1,7 @@
 {
     "deno.enable": true,
     "deno.lint": true,
-    "sass.lint.enable": true,
+    "sass.lint.enable": false, // NEVER SET THIS TO TRUE
     "wikitext.host": "bubble-gum-simulator.fandom.com",
     "wikitext.apiPath": "/api.php",
     "wikitext.articlePath": "/wiki/",
