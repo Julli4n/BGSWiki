@@ -3,7 +3,6 @@ local Staff = {
     'Beckaaa',
     'Bawp29',
     'TotallyNotJullian',
-    'GpaSarge6',
     'TheSeal27',
     'TotallyNotBot',
     'BlueSalsa',

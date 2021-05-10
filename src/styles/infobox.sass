@@ -1,4 +1,14 @@
 /***----------[ Infobox Styling ]----------***
+/* Warning text when user inputs higher values for level & enchant than what is currently allowed in-game
+.warning-text
+  font-family: "ComicNeue Angular"
+  font-size: 12px
+
+  &::before
+    font-family: "FontAwesome"
+    content: "\f071 "
+    font-size: 11px
+
 .pi-title
   border-top-right-radius: 10px
   border-top-left-radius: 10px
@@ -14,7 +24,7 @@
       transform: scale(1.04)
       transition: transform 0.5s
   
-  .pin-section-navigation
+  .pi-section-navigation
     /* Fix overflow
     flex-wrap: wrap
     justify-content: center
