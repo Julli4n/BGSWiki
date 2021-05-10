@@ -43,7 +43,7 @@ MediaWiki's URL paths are not delightful to look at, this repository will <b>not
 * Only files read recursively from `./src/pages/` will be considered and read.
 * The highest ancestor of a file will determine the namespace it will be located at (i.e: `./src/pages/Module/Test.lua` will be located at `Module:Test`)
 * The extension of all files will be removed from the filename except for the `.js` and `.css` extensions.
-* If the highest ancestor is "Main", it will be considered to be in the main namespace (i.e: `./src/pages/Main/Doggy.wikiteext` will be located at `Doggy`).
+* If the highest ancestor is "Main", it will be considered to be in the main namespace (i.e: `./src/pages/Main/Doggy.wikitext` will be located at `Doggy`).
 * If a file's basename is "index", it will be considered to have the path of its directory (i.e: `./src/pages/Module/Test/index.lua` will be located at `Module:Test`).
 
 ### Compilation
