@@ -5,7 +5,8 @@ import commafy from "../utils/commafy.ts";
 import constants from "../utils/statCalculatorConstants.ts";
 import calculateStat from "../utils/calculateStat.ts";
 
-// This really isn't a component *yet*, but this will nr vibing here
+// TO-DO: add amplifiers for potions, maybe redo aswell?
+// This really isn't a component *yet*, but this will be vibing here
 export default function StatsCalculator(element: Element) {
     const level = createElement("input") as HTMLInputElement;
     const levelLabel = createElement("label", { innerHTML: "Level" });

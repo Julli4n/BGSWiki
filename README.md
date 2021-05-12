@@ -61,5 +61,7 @@ All contributions are welcome, as long as they follow [Fandom's Terms of Use](ht
   * Wikitext syntax highlighting
 * [SASS](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) by Syler
   * SASS syntax highlighting
+* [vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by Stylelint
+  * Better style lint/validators
 * [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) by trixnz
   * Lua lint and intellisense

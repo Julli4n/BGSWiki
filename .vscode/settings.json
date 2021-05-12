@@ -2,6 +2,13 @@
     "deno.enable": true,
     "deno.lint": true,
     "sass.lint.enable": false, // NEVER SET THIS TO TRUE
+    "stylelint.validate": [
+        "css",
+        "sass",
+        "scss"
+    ],
+    "css.validate": false, // Stop built-in validators
+    "scss.validate": false, // Stop built-in validators
     "wikitext.host": "bubble-gum-simulator.fandom.com",
     "wikitext.apiPath": "/api.php",
     "wikitext.articlePath": "/wiki/",
