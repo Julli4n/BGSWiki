@@ -2,10 +2,6 @@
 ::-webkit-scrollbar, ::-webkit-scrollbar-track, .rail-module, .module
   background: #fff !important
 
-.SpeechBubble
-  .speech-bubble-message, &.even .speech-bubble-message
-    background: #fff !important
-
 .rail-module, .module
   border-radius: 10px
   padding: 5%
@@ -23,57 +19,3 @@
 .speech-bubble-message
   &::after, &::before
     display: none
-
-.mw-headline
-  font-weight: bold
-
-.wds-community-header__wordmark img
-  padding: 2px
-  transition: 0.4s linear all
-
-  &:hover
-    transform: scale(1.05)
-    transition: 0.4s linear all
-
-.wds-community-header__counter
-  color: #fff !important
-
-.wds-community-header
-  .wds-button.wds-is-secondary
-    border-color: #e8e8e8 !important
-    color: #e8e8e8 !important
-
-    svg
-      fill: #e8e8e8 !important
-
-  &::before
-    background: linear-gradient(to right, rgba(89, 132, 194, 0.5), rgba(89, 132, 194, 0.5)), linear-gradient(to left, rgba(89, 132, 194, 0) 200px, #5984c2 380px, rgb(255, 166, 217) 775px) !important
-
-/***----------[ Community Header ]----------**
-
-.wds-icon-tiny
-  transition: transform 0.2s
-
-.wds-community-header .wds-community-header__local-navigation .wds-tabs .wds-tabs__tab .wds-dropdown .wds-dropdown__content
-  animation: topnav-Dropdown 0.2s
-  -webkit-animation: topnav-Dropdown 0.2s
-  -moz-animation: topnav-Dropdown 0.2s
-
-  .wds-dropdown-level-2__content
-    animation: Dropdown 0.2s
-    -webkit-animation: Dropdown 0.2s
-    -moz-animation: Dropdown 0.2s
-
-.page-header .page-header__contribution .page-header__contribution-buttons .wds-button-group .wds-dropdown .wds-dropdown__content, #PageHeader #EditMessageWallGreeting .wds-button-group .wds-dropdown .wds-dropdown__content, .wds-community-header__wiki-buttons .wds-dropdown .wds-dropdown__content
-  -webkit-animation: contribution-Dropdown 0.2s
-  -moz-animation: contribution-Dropdown 0.2s
-  animation: contribution-Dropdown 0.2s
-
-.wds-dropdown__content.wds-global-navigation__search-suggestions
-  -webkit-animation: searchsuggestions-Dropdown 0.25s
-  -moz-animation: searchsuggestions-Dropdown 0.25s
-  animation: searchsuggestions-Dropdown 0.25s
-
-.wds-dropdown
-  &::after, &::before
-    display: none !important
