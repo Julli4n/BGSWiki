@@ -1,0 +1,4 @@
+return {
+    "Walk",
+    "Fly"
+}

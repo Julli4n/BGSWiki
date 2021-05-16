@@ -13,5 +13,5 @@
     "wikitext.apiPath": "/api.php",
     "wikitext.articlePath": "/wiki/",
     "wikitext.getCss": true,
-    "lua.targetVersion": "5.3"
+    "lua.targetVersion": "5.1"
 }

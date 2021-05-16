@@ -19,7 +19,14 @@ Settings.Data = {
 	GetFlavors = LoadModule("Module:Data/Flavors"),
 	GetFaces = LoadModule("Module:Data/Faces"),
 	GetCodes = LoadModule("Module:Data/Codes"),
-	GetMultipliers = LoadModule("Module:Data/Multipliers"),
+	GetStatMultipliers = LoadModule("Module:Data/StatMultipliers"),
+	GetChanceMultipliers = LoadModule("Module:Data/ChanceMultipliers"),
+	GetRarities = LoadModule("Module:Data/Rarities"),
+	GetPetMovementTypes = LoadModule("Module:Data/PetMovementTypes"),
+	GetPetTypes = LoadModule("Module:Data/PetTypes"),
+	-- Utils
+	GetCategoryHandler = LoadModule("Module:Utils/CategoryHandler", true),
+	GetFindInTable = LoadModule("Module:Utils/FindInTable", true),
 	-- Data values (string | number | boolean)
 	Color1 = "2bf8ff",
 	Color2 = "ff5773"

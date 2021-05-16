@@ -12,13 +12,11 @@ local Staff = {
     'Hypxr',
     'IAmaPersonthatExists',
     'Jibs23',
-    'SandyDice',
     'IAmaBotthatExists',
     'AbsolutelyAdorkable',
     'MegaEnderKing999',
     'Ayyoiboi',
-    'DefildPlaysThinks',
-    'Drei2k5'
+    'DefildPlaysThinks'
 }
 function p.Verify(frame)
     for _,v in pairs(Staff) do 

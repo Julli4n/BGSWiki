@@ -4,6 +4,6 @@
 	  "RoweWilsonFrederiskHolme.wikitext", // For wikitext syntax highlighting
 	  "Syler.sass-indented", // For SASS syntax highlighting
 	  "stylelint.vscode-stylelint", // For SASS lint/validation
-	  "trixnz.vscode-lua" // For lua lint
+	  "trixnz.vscode-lua" // For lua lint and intellisense
 	]
 }  
