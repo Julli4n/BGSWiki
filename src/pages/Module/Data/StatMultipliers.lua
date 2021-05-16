@@ -32,7 +32,7 @@ return {
         Name = "Coins",
         CSSClass = "Coin",
         Icon = "Coin.png",
-        Alises = {"coin"},
+        Aliases = {"coin"},
         Prefix = "x",
         AffectedBy = {"PotionOfMoney"}
     },
@@ -113,7 +113,7 @@ return {
         Name = "Candy Canes",
         CSSClass = "Candy",
         Icon = "Candy Cane.png",
-        Aliases = {"candy", "candycane"},
+        Aliases = {"Candy", "CandyCane"},
         Prefix = "x",
         AffectedBy = {"PotionOfWorlds"}
     },

@@ -27,6 +27,7 @@ Settings.Data = {
 	-- Utils
 	GetCategoryHandler = LoadModule("Module:Utils/CategoryHandler", true),
 	GetFindInTable = LoadModule("Module:Utils/FindInTable", true),
+	GetCommafy = LoadModule("Module:Utils/Commafy", true),
 	-- Data values (string | number | boolean)
 	Color1 = "2bf8ff",
 	Color2 = "ff5773"

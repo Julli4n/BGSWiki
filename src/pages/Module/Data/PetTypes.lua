@@ -15,7 +15,7 @@ return {
         StatMultiplier = 2,
         ChanceMultiplier = 100,
         Image = "Image2",
-        Caption = "Caption1",
+        Caption = "Caption2",
         Invert = true,
         InvertImage = "Image1",
         RequiresMythic = false,
