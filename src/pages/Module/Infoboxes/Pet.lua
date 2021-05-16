@@ -102,7 +102,7 @@ function PetInfobox.Create(frame)
             end
 
             -- Stats and calculator
-            if next(Info.Buffs) == nil then
+            if not table.isEmpty(Info.Buffs) then
                 local Stats = Section:tag("group")
                 Stats:tag("header"):wikitext(type.StatsHeader)
                 -- Stats
