@@ -7,6 +7,7 @@ local Settings = require("Module:Settings").Data
 
 local CategoryHandler = Settings.GetCategoryHandler()
 table.find = Settings.GetFindInTable()
+table.isEmpty = Settings.GetIsTableEmpty()
 
 local ChanceMultipliers = Settings.GetChanceMultipliers()
 local StatMultipliers = Settings.GetStatMultipliers()
@@ -23,16 +24,10 @@ function PetInfobox.Create(frame)
     local Parent = frame:getParent()
     -- Get namespace for frame
     local Namespace = frame:preprocess("{{NAMESPACE}}")
-    if not Namespace then return end -- this generally should never happen, if it does, return
-    
-    local PetName = Parent.args.PetName and mw.text.decode(Parent.args.PetName)
-    local Pet = Pets[PetName]
-    if Namespace == "" and not Pet then return CategoryHandler.New():Add("Pages with incorrect name inputs") end
-
     -- Determine if it's a real page
     local IsRealPage = Namespace == ""
     local Info = {
-        Title = Parent.args.title1 or Parent.args.title or Parent:getTitle(),
+        Title = Parent.args.PetName or Parent.args.title1 or Parent.args.title or mw.text.decode(frame:preprocess("{{PAGENAME}}")),
         Image1 = Parent.args.image1,
         Image2 = Parent.args.image2,
         Image3 = Parent.args.image3,
@@ -43,7 +38,9 @@ function PetInfobox.Create(frame)
         Caption4 = Parent.args.caption4,
         Buffs = {}
     }
-    if RealPage then
+    local Pet = Pets[Info.Title]
+    if Namespace == "" and not Pet then return CategoryHandler.New():Add("Pages with incorrect name inputs") end
+    if IsRealPage then
         Info.Chance = Pet.Chance
         Info.Rarity = Pet.Rarity
         Info.Type = Pet.Type
@@ -105,7 +102,7 @@ function PetInfobox.Create(frame)
             end
 
             -- Stats and calculator
-            if next(Info.Buffs) then
+            if next(Info.Buffs) == nil then
                 local Stats = Section:tag("group")
                 Stats:tag("header"):wikitext(type.StatsHeader)
                 -- Stats
@@ -137,8 +134,13 @@ function PetInfobox.Create(frame)
             end
         end
     end
-
-    return IsRealPage and CategoryHandler.New():Add("Pets"):Add(string.format("%s Pets"), Info.Rarity):Add(string.format("%sing Pets"), Info.Type) or frame:preprocess("{{UserBlogWarn}}"), frame:preprocess(tostring(Infobox))
+    local Categories
+    if IsRealPage then
+        Categories = CategoryHandler.New():Add("Pets")
+        if Info.Rarity then Categories:Add(string.format("%s Pets", Info.Rarity)) end
+        if Info.Type then Categories:Add(string.format("%sing Pets", Info.Type)) end
+    end
+    return IsRealPage and Categories or frame:preprocess("{{UserBlogWarn}}"), frame:preprocess(tostring(Infobox))
 end
 
 -- Create alias
