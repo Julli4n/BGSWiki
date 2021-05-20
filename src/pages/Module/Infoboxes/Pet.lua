@@ -76,9 +76,9 @@ function PetInfobox.Create(frame)
             -- Image handling
             local Section = Panel:tag("section"):attr("name", type.Label)
             Section:tag("label"):wikitext(type.Label)
-            if (invert and not image) and Info[type.InvertImage] then
+            if (type.Invert and not Info[type.Image]) and Info[type.InvertImage] then
                 local Image = Section:tag("data"):tag("default")
-                Image:tag("div"):addClass("invertIMG"):cssText("margin-left:-14px; margin-top: -10px; margin-bottom: -10px;")
+                Image:tag("div"):addClass("invertIMG"):cssText("margin-left:-14px; margin-top: -10px; margin-bottom: -10px;"):wikitext(string.format("[[File:%s|300px]]", Info[type.InvertImage]))
                 Image:tag("br")
                 Image:tag("div"):cssText("margin-left:4em;"):wikitext("''Inverted HUE (may be inaccurate)''")
             else
