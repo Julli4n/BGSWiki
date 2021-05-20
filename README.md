@@ -44,7 +44,8 @@ MediaWiki's URL paths are not delightful to look at, this repository will <b>not
 * The highest ancestor of a file will determine the namespace it will be located at (i.e: `./src/pages/Module/Test.lua` will be located at `Module:Test`)
 * The extension of all files will be removed from the filename except for the `.js` and `.css` extensions.
 * If the highest ancestor is "Main", it will be considered to be in the main namespace (i.e: `./src/pages/Main/Doggy.wikitext` will be located at `Doggy`).
-* If a file's basename is "index", it will be considered to have the path of its directory (i.e: `./src/pages/Module/Test/index.lua` will be located at `Module:Test`).
+* If a file's basename is the same string as its direct parent, it will be considered to have the path of its directory (i.e: `./src/pages/Module/Test/Test.lua` will be located at `Module:Test`).
+* If a file's extension is `.doc.wikitext`, it will be located at its basename appeneded by `/doc`
 
 ### Compilation
 Scripts and style sheets will be compiled and renamed to their `.js` and `.css` extensions respectively.
