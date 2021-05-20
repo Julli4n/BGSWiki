@@ -20,22 +20,22 @@ local Pets = Settings.GetPets()
 
 local PetInfobox = {}
 -- Create an infobox node and return it
+--- INTERNAL USE ONLY, use PetInfobox.TemplateProxy for templates using the module
 function PetInfobox.Create(frame)
-    local Parent = frame:getParent()
     -- Get namespace for frame
     local Namespace = frame:preprocess("{{NAMESPACE}}")
     -- Determine if it's a real page
     local IsRealPage = Namespace == ""
     local Info = {
-        Title = Parent.args.PetName or Parent.args.title1 or Parent.args.title or mw.text.decode(frame:preprocess("{{PAGENAME}}")),
-        Image1 = Parent.args.image1,
-        Image2 = Parent.args.image2,
-        Image3 = Parent.args.image3,
-        Image4 = Parent.args.image4,
-        Caption1 = Parent.args.caption1,
-        Caption2 = Parent.args.caption2,
-        Caption3 = Parent.args.caption3,
-        Caption4 = Parent.args.caption4,
+        Title = frame.args.PetName or frame.args.title1 or frame.args.title or mw.text.decode(frame:preprocess("{{PAGENAME}}")),
+        Image1 = frame.args.image1,
+        Image2 = frame.args.image2,
+        Image3 = frame.args.image3,
+        Image4 = frame.args.image4,
+        Caption1 = frame.args.caption1,
+        Caption2 = frame.args.caption2,
+        Caption3 = frame.args.caption3,
+        Caption4 = frame.args.caption4,
         Buffs = {}
     }
     local Pet = Pets[Info.Title]
@@ -47,14 +47,14 @@ function PetInfobox.Create(frame)
         Info.HasMythic = Pet.HasMythic
         Info.Buffs = Pet.Buffs
     else
-        Info.Chance = Parent.args.chance
-        Info.Rarity = Parent.args.rarity
-        Info.Type = Parent.args.type
-        Info.HasMythic = string.lower(tostring(Parent.args.hasMythic)) == "true"
+        Info.Chance = frame.args.chance
+        Info.Rarity = frame.args.rarity
+        Info.Type = frame.args.type
+        Info.HasMythic = string.lower(tostring(frame.args.hasMythic)) == "true"
         -- Iterate over all Aliases for UGC pets
         for _,multiplier in ipairs(StatMultipliers) do
             for _,alias in ipairs(multiplier.Aliases) do 
-                local Value = Parent.args[alias]
+                local Value = frame.args[alias]
                 if Value then
                     Value = tonumber(tostring(string.gsub(Value, ",", "")))
                     Info.Buffs[multiplier.Name] = Value
@@ -141,6 +141,10 @@ function PetInfobox.Create(frame)
         if Info.Type then Categories:Add(string.format("%sing Pets", Info.Type)) end
     end
     return IsRealPage and Categories or frame:preprocess("{{UserBlogWarn}}"), frame:preprocess(tostring(Infobox))
+end
+
+function PetInfobox.TemplateProxy(frame)
+    return self.Create(frame:getParent())
 end
 
 -- Create alias
