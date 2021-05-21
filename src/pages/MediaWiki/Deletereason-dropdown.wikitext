@@ -1,16 +1,15 @@
 *Vandalism and problems
 **Copyright violation.
 **Spam.
-**Swearing.
-**Harassment.
-**Toxicity.
 **Excessively long.
 **Unnecessary page.
 **Vandalism.
+**Evading block(s).
+**Inappropriate media.
+**Advvertising without permission.
 *Maintenance
 **Author request.
 **Housekeeping.
-**Permanently blocked account.
 **Marked for deletion.
 **Duplicate report.
 **Off-topic.
@@ -18,7 +17,15 @@
 **Broken redirect.
 **Unused redirect.
 **Redirect left from rename.
+*Behavior
+**Bypassing.
+**Swearing.
+**Harassment.
+**Toxicity.
 *Other
 **Foreign language.
 **Cross trading.
 **Begging.
+**Breaking Fandom's Terms of Use.
+**Underage.
+**Doxxing or threatening another user.
