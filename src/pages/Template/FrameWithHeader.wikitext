@@ -1,0 +1,1 @@
+{{Frame|color = {{{color}}}|content = <center><p style="padding-bottom: 5px; font-size: 20px; border-bottom: 0.1px solid #a6a6a6;">{{{header}}}</center></p><center><p>{{{content|none}}}</p></center>}}

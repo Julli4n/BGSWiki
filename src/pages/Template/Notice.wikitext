@@ -1,2 +1,1 @@
-{{Frame|color = ee4300|content = <div style="border-bottom: 0.1px solid #a6a6a6;"><center><big> 
-      🚨'''IMPORTANT NOTICE'''🚨</big></center></div><center>{{{content|none}}}</center>}}
+{{FrameWithHeader|color = ee4300|header = 🚨'''IMPORTANT NOTICE'''🚨|content = {{{content|none}}}}}

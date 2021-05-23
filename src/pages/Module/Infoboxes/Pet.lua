@@ -20,7 +20,8 @@ local Pets = Settings.GetPets()
 
 local PetInfobox = {}
 -- Create an infobox node and return it
---- INTERNAL USE ONLY, use PetInfobox.TemplateProxy for templates using the module
+-- INTERNAL USE ONLY, use PetInfobox.TemplateProxy for templates using the module
+---@param frame Frame
 function PetInfobox.Create(frame)
     -- Get namespace for frame
     local Namespace = frame:preprocess("{{NAMESPACE}}")
@@ -63,6 +64,7 @@ function PetInfobox.Create(frame)
         end
     end
 
+    ---@type HTML
     local Infobox = mw.html.create("div"):attr("id", string.format("Pets_", mw.uri.encode(Info.Title, "WIKI"))):attr("class", "Pets_Infobox"):tag("infobox")
     Infobox:tag("title"):tag("default"):wikitext(Info.Title)
     local Panel = Infobox:tag("panel"):attr("name", "stats")
@@ -110,7 +112,7 @@ function PetInfobox.Create(frame)
                     if Info.Buffs[multiplier.Name] then
                         local Stat = Stats:tag("data")
                         local StatValue = Commafy(math.ceil(Info.Buffs[multiplier.Name] * type.StatMultiplier))
-                        Stat:tag("label"):tag("div"):cssText("overflow:hidden;white-space:nowrap;"):wikitext(string.format("[[File:%s|15px|right]]", multiplier.Icon))
+                        Stat:tag("label"):tag("div"):wikitext(string.format("[[File:%s|15px]] %s", multiplier.Icon, multiplier.Name))
                         Stat:tag("default"):tag("div"):cssText("overflow:hidden;white-space:nowrap;"):tag("span"):attr("data-affected-by", string.gsub(mw.text.jsonEncode(multiplier.AffectedBy), "\"", "'")):addClass(multiplier.CSSClass):wikitext(string.format("%s%s", multiplier.Prefix, StatValue))
                     end
                 end
@@ -143,8 +145,10 @@ function PetInfobox.Create(frame)
     return IsRealPage and Categories or frame:preprocess("{{UserBlogWarn}}"), frame:preprocess(tostring(Infobox))
 end
 
+--Template Proxy for CreateInfobox, only use for tables
+---@param frame Frame
 function PetInfobox.TemplateProxy(frame)
-    return self.Create(frame:getParent())
+    return PetInfobox.Create(frame:getParent())
 end
 
 -- Create alias
