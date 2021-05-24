@@ -1,6 +1,5 @@
 --[[
-    This file exists to manipulate lua-language-server for the typings (globally)
-    Should be temporary, (very hacky), so we can have epic typings
+    This file exists to manipulate lua-language-server for intellisense (glogally)
 
     DO NOT REQUIRE!
 
@@ -8,7 +7,7 @@
 ]]
 
 ---@class Expandable
-local Expanadable = {
+local Expandable = {
     --Returns the result of [`frame:preprocess( text )`](https://dev.fandom.com/wiki/Lua_reference_manual/Scribunto_libraries#frame:preprocess)
     ---@param self Expandable
     ---@return string

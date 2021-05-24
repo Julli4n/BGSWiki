@@ -2,8 +2,12 @@
     Use this module to handle adding Categories with Wikitext
 ]]
 
+---@class CategoryHandlerCreator
+--Module for creating CategoryHandlers.
 local Module = {}
 
+---@class CategoryHandler
+--Handler for handling and getting categories.
 local CategoryHandler = setmetatable({
     Categories = {}
 }, {
@@ -18,12 +22,17 @@ local CategoryHandler = setmetatable({
     end
 })
 
+--Add a new category to the handler.
+---@param category string - The category to add
+---@return CategoryHandler
 function CategoryHandler:Add(category)
     -- add category to CategoryHandler categories
     table.insert(self.Categories, category)
     return self
 end
 
+--Create a a new Category Handler.
+---@return CategoryHandler
 function Module.New()
     -- send back a clone of CategoryHandler
     return mw.clone(CategoryHandler)
