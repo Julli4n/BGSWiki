@@ -1,4 +1,3 @@
-local FindInTable = require "src.pages.Module.Utils.FindInTable"
 --[[
     Handler for the Pets Infobox
 ]]
