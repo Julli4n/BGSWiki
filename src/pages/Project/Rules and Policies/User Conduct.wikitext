@@ -1,0 +1,33 @@
+<center>
+<br />
+<noinclude>{{RulesAndPoliciesNavigation}}</noinclude>
+
+== '''User Conduct''' ==
+{{FrameSquare|color = db0f4d|content= The '''user conduct''' is a set of standards that '''ALL''' users must comply to while on the Bubble Gum Simulator Wiki.<br />
+[https://www.fandom.com/terms-of-use Fandom's Terms of Use] applies '''''globally'''''.}}
+</center>
+
+Users on this Wiki are to not:
+* '''Harass users''' or '''any other entities''' because of their '''sexuality, origin, race, etc''';
+
+* Use '''inappropriate''' language or profanities;
+
+* '''Upload''' or '''share''' '''inappropriate media''' where it is not allowed;
+
+* '''Share external site links''' from domains that are '''not allowed''';
+** Allowed domains include:
+*** roblox.com, fandom.com
+
+* Post content that is '''not written in the English language''';
+
+* Post, Share, or Promote content that '''is in violation of [https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use Roblox's Terms of Use], or [https://www.fandom.com/terms-of-use Fandom's Terms of Use]''';
+
+* '''Plan raids''' on other Wikis or platforms;
+
+* '''Deface content''' on the Wiki [[w:c:Help:Vandalism|(vandalism)]], or '''user profiles without permission''';
+
+* Post '''content that is considered to be racist, homophobic, suicidal, controversial, sexist, explicit, or to have gore''';
+
+* '''Impersonate any''' Roblox player, Fandom user or celebrity;
+
+<big>'''LAST UPDATED: May 27th, 2021'''</big>
