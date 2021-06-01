@@ -1,0 +1,15 @@
+<center>
+<br />
+<noinclude>{{RulesAndPoliciesNavigation}}</noinclude>
+
+== '''Giveaways Policy''' ==
+{{FrameSquare|color = db0f4d|content= The '''giveaways policy''' is a set of standards that '''ALL''' users must comply to while on the Bubble Gum Simulator Wiki.<br />
+[https://www.fandom.com/terms-of-use Fandom's Terms of Use] applies '''''globally'''''.}}
+</center>
+
+Giveaways are '''strictly prohibited''' on this wiki due to being a high risk for scams. Users '''should not''' attempt to initiate giveaways through any medium of the wiki including but not limited to:
+* Discussions
+* Comments
+* Message Walls
+
+<big>'''LAST UPDATED: June 1st, 2021'''</big>

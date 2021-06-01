@@ -1,0 +1,27 @@
+<center>
+<br />
+<noinclude>{{RulesAndPoliciesNavigation}}</noinclude>
+
+== '''Trading Policy''' ==
+{{FrameSquare|color = db0f4d|content= The '''trading policy''' is a set of standards that '''ALL''' users must comply to while on the Bubble Gum Simulator Wiki.<br />
+[https://www.fandom.com/terms-of-use Fandom's Terms of Use] applies '''''globally'''''.}}
+</center>
+
+While trading, users:
+
+* '''Must:''' 
+** Follow '''all''' other wiki policies;
+** Use the "Trading" category of discussions;
+
+* '''Must not:''' 
+** Scam other users;
+** Trade for Robux or Real Life Currencies;
+** Cross trade or trade items in-between games;
+** Spam or create long threads;
+** Trade duplicated items;
+** Pretend to have certain pets or items;
+** Beg for free pets/items;
+** Waste other user's time;
+** Create fake/joke posts;
+
+<big>'''LAST UPDATED: June 1st, 2021'''</big>
