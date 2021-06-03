@@ -1,0 +1,32 @@
+<center>
+<br />
+<noinclude>{{RulesAndPoliciesNavigation}}</noinclude>
+
+== '''Contribution Policy''' ==
+{{FrameSquare|color = db0f4d|content= The '''contribution policy''' is a set of standards that '''ALL''' users must comply to while on the Bubble Gum Simulator Wiki.<br />
+[https://www.fandom.com/terms-of-use Fandom's Terms of Use] applies '''''globally'''''.}}
+</center>
+
+Some pages such as [[Help:System_messages|MediaWiki messages]], templates, modules, or other pages, may have their '''original sources''' in the [https://github.com/RumbleWikis/BGSWiki ''BGSWiki'' git repository]. 
+* Articles '''should not''' be included.
+* Pages linked to the files in the repository '''should not''' be edited directly, unless necessary or simple fixes.
+
+When contributing, users are required to:
+* Give '''proper attribution''' or  '''references''' to sources;
+
+* '''Not''' deface the content or any entity;
+
+* Keep the language in articles consistently in '''American English''';
+** This is the preferred language by the game and developers.
+
+* Keep article content in a 3rd-person point of view;
+
+* '''Not''' insert '''inappropriate''' media or langauge;
+
+* Only include '''relevant''' information;
+
+* '''Not''' create articles that are useless, irrelevant, or not notable;
+
+<big>'''LAST UPDATED: June 3rd, 2021'''</big>
+
+

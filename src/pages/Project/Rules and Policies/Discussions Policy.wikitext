@@ -16,8 +16,10 @@ While using discussions, users are required to:
 ** '''All trading''' should go in the "Trading" category;
 ** Discussion about value '''including W/L Posts''' belong in the "Value Discussion" category;
 
-* Strictly create posts that are '''on-topic''';
+* Strictly create posts that are '''on-topic''' related to the category;
 
-* '''Not''' create posts with the purpose of soliciting upvotes;
+* '''Not''' create posts with the purpose of soliciting upvotes or spam comments;
 
-<big>'''LAST UPDATED: June 1st, 2021'''</big>
+* Speak in '''English''' for comments and discussions;
+
+<big>'''LAST UPDATED: June 3rd, 2021'''</big>
