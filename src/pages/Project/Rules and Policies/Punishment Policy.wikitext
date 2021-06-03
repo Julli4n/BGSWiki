@@ -20,7 +20,7 @@ Reasons for warnings include:
 ! Length
 ! Reasons
 |-
-! Low Severity
+! colspan=2 | Low Severity
 |-
 |3 days
 |Multiple warnings within the past 3 months OR
@@ -42,7 +42,7 @@ Reasons for warnings include:
 |Multiple 1-week blocks OR
 * Homophobia or racism
 |-
-! Medium Severity
+! colspan=2 | Medium Severity
 |-
 |1 month
 |Multiple 2-week blocks OR
@@ -50,13 +50,13 @@ Reasons for warnings include:
 * Hosting giveaway(s)
 * Discussing politics
 |-
-! High Severity
+! colspan=2 | High Severity
 |-
 |2 months
 |Multiple 1-month blocks OR
 * Cross-trading
 |-
-! Highest Severity
+! colspan=2 | Highest Severity
 |-
 |Indefinite
 |Multiple 2-month blocks OR
