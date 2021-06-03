@@ -38,17 +38,14 @@ Reasons for warnings include:
 * Toxicity
 * Minor impersonation
 |-
-|2 weeks
-|Multiple 1-week blocks OR
-* Homophobia or racism
-|-
 ! colspan=2 | Medium Severity
 |-
 |1 month
-|Multiple 2-week blocks OR
+|Multiple 1-week blocks OR
 * Attempted scamming
 * Hosting giveaway(s)
 * Discussing politics
+* Homophobia or racism
 |-
 ! colspan=2 | High Severity
 |-
