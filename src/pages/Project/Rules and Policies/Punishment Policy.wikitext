@@ -37,13 +37,13 @@ Reasons for warnings include:
 * Inappropriate comments
 * Toxicity
 * Minor impersonation
+* Hosting giveaway(s)
 |-
 ! colspan=2 | Medium Severity
 |-
 |1 month
 |Multiple 1-week blocks OR
 * Attempted scamming
-* Hosting giveaway(s)
 * Discussing politics
 * Homophobia or racism
 |-
