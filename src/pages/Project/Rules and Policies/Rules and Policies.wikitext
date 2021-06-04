@@ -1,0 +1,8 @@
+<center>
+{{FrameSquare|color = db0f4d|content= The '''rules and policies''' are policies that '''ALL''' users on this wiki are required to follow.<br />
+[https://www.fandom.com/terms-of-use Fandom's Terms of Use] applies '''''globally'''''.}}
+{{RulesAndPoliciesNavigation}}
+</center>
+
+== '''Staff Contact''' ==
+[[Project:Staff|Wiki Staff]] can be contacted for questions or reports via their [[Help:Message_Wall|Message Wall]] or Discord.

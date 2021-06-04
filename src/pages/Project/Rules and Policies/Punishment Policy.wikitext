@@ -2,7 +2,6 @@
 <br />
 <noinclude>{{RulesAndPoliciesNavigation}}</noinclude>
 
-== '''Punishment Policy''' ==
 {{FrameSquare|color = db0f4d|content= The '''punishment policy''' is a set of standards that [[Project:Staff|Staff Members]] should determine block lengths with.}}
 </center>
 

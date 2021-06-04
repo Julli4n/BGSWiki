@@ -34,6 +34,7 @@
 **https://bubble-gum-simulator.fandom.com/f?catId=3100000000000000033|Trade
 **https://bubble-gum-simulator.fandom.com/f?catId=4400000000000000007|Value Discussion (W/L Posts)
 *Special:Community|Community
+**Project:Rules|Legacy Rules
 **Project:Rules and Policies|Rules and Policies
 ***Project:Rules and Policies/User Conduct|User Conduct
 ***Project:Rules and Policies/Contribution Policy|Contribution Policy
