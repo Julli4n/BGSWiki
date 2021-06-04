@@ -62,7 +62,7 @@
 |team=technical
 |name=Exists
 |discordid=640224786366201856
-|description=[[User:IAmaPersonthatExists|Exists]] is an administrator who joined the wiki in December 2018. They originally joined the wiki staff team on February 10th, 2019 as a content moderator and were promoted to administrator on April 12th, 2021. They are also an administrator for the {{DLinkS|sBmKhBqbna|Rumble Studios Wikis Discord server}} where they manage different aspects of the server. As a wiki administrator, they generally work behind the scenes with technical aspects of the wiki and staff tooling.<br><br>If you have any questions or concerns about wiki scripts/the usage of bots on the wiki, feel free to contact them on their [[Message_Wall:IAmaPersonthatExists|message wall]].
+|description=[[User:IAmaPersonthatExists|Exists]] is an administrator who joined the wiki in December 2018. They originally joined the wiki staff team on February 10th, 2019 as a content moderator and were promoted to administrator on April 12th, 2021. They are also a community manager for the {{DLinkS|sBmKhBqbna|Rumble Studios Wikis Discord server}} where they manage different aspects of the server. As a wiki administrator, they generally work behind the scenes with technical aspects of the wiki and staff tooling.<br><br>If you have any questions or concerns about wiki scripts/the usage of bots on the wiki, feel free to contact them on their [[Message_Wall:IAmaPersonthatExists|message wall]].
 |ncd=ad
 |month=12
 |year=2018
