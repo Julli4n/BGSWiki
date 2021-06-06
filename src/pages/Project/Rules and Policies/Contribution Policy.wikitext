@@ -2,7 +2,7 @@
 <br />
 <noinclude>{{RulesAndPoliciesNavigation}}</noinclude>
 
-{{FrameSquare|color = db0f4d|content= The '''contribution policy''' is a set of standards that '''ALL''' users must comply to while on the Bubble Gum Simulator Wiki.<br />
+{{FrameSquare|color = db0f4d|content = The '''contribution policy''' is a set of standards that '''ALL''' users must comply to while on the Bubble Gum Simulator Wiki.<br />
 [https://www.fandom.com/terms-of-use Fandom's Terms of Use] applies '''''globally'''''.}}
 </center>
 
