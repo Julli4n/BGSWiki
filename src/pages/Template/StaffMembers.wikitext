@@ -88,16 +88,6 @@
 |month=3
 |year=2020
 |width=100%}}
-{{StaffBox
-|image=https://static.wikia.nocookie.net/b96910e6-ea71-4a0e-9923-f66e1ded3ada/scale-to-width-down/120#.png
-|user=Hypxr
-|team=moderation
-|discordid=460621491533250570
-|description=
-|ncd=cm
-|month=2
-|year=2019
-|width=100%}}
 {{header|Discussion Moderators}}
 {{StaffBox
 |image=https://static.wikia.nocookie.net/721c5445-af38-43f5-9ed9-4c6aed6bfca2/scale-to-width-down/120#.png

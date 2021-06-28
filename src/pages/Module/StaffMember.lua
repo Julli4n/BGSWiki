@@ -8,7 +8,6 @@ local Staff = {
     'BlueSalsa',
     'Mr.Bladen',
     'Jojoboz123',
-    'Hypxr',
     'IAmaPersonthatExists',
     'Jibs23',
     'IAmaBotthatExists',
