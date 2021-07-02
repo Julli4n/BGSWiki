@@ -1,8 +1,6 @@
 <div align="center">
     <br />
     <p>
-        <img src="https://cdn.discordapp.com/icons/516008063791136769/702aaa89cd3f9d0bf5dc36c8b4dddbbe.webp" width="40" alt="Rumble Studio Wikis"/>
-        <br />
         <b>BGSWiki</b>
         <br />
         The repository that holds the <i>open source</i> files of the custom <b>CSS</b> (in SASS), <b>JavaScript</b> (in TS/JS), <b>Lua Modules</b>, and <b>wikitext templates</b> for the <a href="//bubble-gum-simulator.fandom.com">Bubble Gum Simulator Wiki</a> on Fandom.
