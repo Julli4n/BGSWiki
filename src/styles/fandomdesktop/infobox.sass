@@ -1,0 +1,67 @@
+/***----------[ Infobox Styling ]----------***
+/* Warning text when user inputs higher values for level & enchant than what is currently allowed in-game
+.warning-text
+  font-family: "ComicNeue Angular"
+  font-size: 12px
+
+  &::before
+    font-family: "FontAwesome"
+    content: "\f071 "
+    font-size: 11px
+
+.pi-title
+  border-top-right-radius: 10px
+  border-top-left-radius: 10px
+
+.portable-infobox
+  border-radius: 10px
+  margin-right: 0.4em
+
+  img
+    transition: transform 0.5s
+
+    &:hover
+      transform: scale(1.04)
+      transition: transform 0.5s
+  
+  .pi-section-navigation
+    /* Fix overflow
+    flex-wrap: wrap
+    justify-content: center
+    
+  button
+    cursor: pointer
+    background: var(--theme-accent-color)
+    border-color: transparent !important
+    border-radius: 3px !important
+    font-family: Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif !important
+    font-size: 10px !important
+    font-weight: bold
+    text-transform: uppercase
+    line-height: 19px !important
+    padding: 7px 18px !important
+    color: #000
+    transition: ALL 0.25s
+
+    &:hover, &.active, &:active
+      transition: ALL 0.25s
+      background: var(--bgs-infobox-button-action)
+.calculator
+  label
+    font-family: "ComicNeue Angular"
+    font-size: 16px
+
+  input
+    transition: ALL 0.4s
+    border-radius: 8px
+    margin-bottom: 5px
+    text-align: center
+    background-color: #fff
+    border: 2px solid #7a7a7a
+    color: #000
+    font-family: "ComicNeue Angular"
+    font-size: 16px
+    outline: none
+    &:focus
+      transition: ALL 0.4s
+      border: 2px solid #57d8ff
