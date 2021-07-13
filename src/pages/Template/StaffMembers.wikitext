@@ -39,14 +39,6 @@
 |description=[[User:Mr.Bladen|Bladen]] is a wiki administrator who joined the wiki on March 16th, 2019. On June 12th, 2020, they were promoted to content moderator, and later on December 17th, 2020 to administrator. They enjoy making, reviewing, and repairing vandalized pages as well as moderating the wiki. They also contribute to a few other wikis, one of which was founded by them. They are a head moderator for the {{DLinkS|sBmKhBqbna|Rumble Studios Wikis Discord server}}, and they're happy to chat and read appeals for either the wiki or RSW Discord server.<br><br>Send a message to their [[Message Wall:Mr.Bladen|message wall]] if you find that a page contains false information, a user has violated the guidelines, or simply have a query.
 |width=100%}}
 {{StaffBox
-|image=https://static.wikia.nocookie.net/1f51d3ed-68ca-421f-aa4f-50575ec9f2e5/scale-to-width-down/120#.png
-|user=TheSeal27
-|team=moderation
-|name=Seal
-|discordid=197481492966801408
-|description=[[User:TheSeal27|Seal]] is an administrator who joined the wiki in July 2019. They are an experienced Fandom editor with vast knowledge in many areas of wiki development. In April 2020, they became a content moderator for the Bubble Gum Simulator Wiki, then an administrator a little over 7 weeks later on 22 May 2020. However, on 23 July 2020, they were demoted due to drama pertaining to the {{DLinkS|RNpdHHC|Rumble Studios Wikis Discord server}}. After 262 days, on 11 April 2021, they were repromoted to the position of administrator.<br><br>If you have any questions, feel free to consult Seal on their [[Message Wall:TheSeal27|message wall]].
-|width=100%}}
-{{StaffBox
 |image=https://static.wikia.nocookie.net/6abab75f-9e9f-4c59-95f9-c1f2c74babb8/scale-to-width-down/120#.png
 |user=Jojoboz123
 |team=content
@@ -87,6 +79,16 @@
 |ncd=cm
 |month=3
 |year=2020
+|width=100%}}
+{{StaffBox
+|image=https://static.wikia.nocookie.net/252dc604-41b4-4cb6-8819-4c815e3c85c1/scale-to-width-down/120#.png
+|user=DatBoiAJ
+|team=moderation
+|discordid=400142380801720321
+|description=
+|ncd=cm
+|month=12
+|year=2018
 |width=100%}}
 {{header|Discussion Moderators}}
 {{StaffBox
