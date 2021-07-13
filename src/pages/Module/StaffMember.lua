@@ -14,7 +14,8 @@ local Staff = {
     'AbsolutelyAdorkable',
     'MegaEnderKing999',
     'Drei2k5',
-    'DefildPlaysThinks'
+    'DefildPlaysThinks',
+    'DatBoiAJ'
 }
 
 function p.Verify(frame)
