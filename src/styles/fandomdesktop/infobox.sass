@@ -1,5 +1,5 @@
 /***----------[ Infobox Styling ]----------***
-/* Warning text when user inputs higher values for level & enchant than what is currently allowed in-game
+/* Warning text when user inputs higher values for level & enchant than what is currently allowed in-experience
 .warning-text
   font-family: "ComicNeue Angular"
   font-size: 12px
@@ -8,26 +8,6 @@
     font-family: "FontAwesome"
     content: "\f071 "
     font-size: 11px
-
-.pi-title
-  border-top-right-radius: 10px
-  border-top-left-radius: 10px
-
-.portable-infobox
-  border-radius: 10px
-  margin-right: 0.4em
-
-  img
-    transition: transform 0.5s
-
-    &:hover
-      transform: scale(1.04)
-      transition: transform 0.5s
-  
-  .pi-section-navigation
-    /* Fix overflow
-    flex-wrap: wrap
-    justify-content: center
     
   button
     cursor: pointer
@@ -40,7 +20,7 @@
     text-transform: uppercase
     line-height: 19px !important
     padding: 7px 18px !important
-    color: #000
+    color: var(--bgs-infobox-button-color)
     transition: ALL 0.25s
 
     &:hover, &.active, &:active
@@ -56,12 +36,12 @@
     border-radius: 8px
     margin-bottom: 5px
     text-align: center
-    background-color: #fff
-    border: 2px solid #7a7a7a
-    color: #000
+    background-color: var(--bgs-infobox-calculator-input-color)
+    border: 2px solid var(--bgs-infobox-calculator-input-border)
+    color: var(--bgs-infobox-calculator-input-color)
     font-family: "ComicNeue Angular"
     font-size: 16px
     outline: none
     &:focus
       transition: ALL 0.4s
-      border: 2px solid #57d8ff
+      border: 2px solid var(--bgs-infobox-calculator-input-focus-color)
