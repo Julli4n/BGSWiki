@@ -1,6 +1,0 @@
-<gallery navigation="true" hideaddbutton="true" captioncenter="center" position="center" captionalign="center" widths="125px">
-File:Corrupted Egg.png|<big>[[Corrupted Egg]]</big>|link=Corrupted Egg
-File:Corrupt Glitch.png|<big>[[Corrupt Glitch]]</big>|link=Corrupt Glitch
-File:Hellfire.png|<big>[[Hellfire]]</big>|link=Hellfire
-File:Bunny of Discord.png|<big>[[Bunny of Discord]]</big>|link=Bunny of Discord
-</gallery>

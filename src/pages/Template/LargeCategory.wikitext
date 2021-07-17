@@ -1,5 +1,4 @@
-{{Frame|color = ee4300|content = <div style="border-bottom: 0.1px solid #a6a6a6;"><center><big> 
-      🚨'''THIS IS A VERY LARGE CATEGORY'''🚨</big></center></div><center>To see more of it, click the links below for specific letters, or click the "Next" (or "Prev") links.<br />[{{fullurl:{{NAMESPACE}}:{{PAGENAME}}}} *] [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=0}} 0-9][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=A}} A]
+{{FrameWithHeader|color = ee4300|center = true|header = 🚨'''THIS IS A VERY LARGE CATEGORY'''🚨|content = <center>To see more of it, click the links below for specific letters, or click the "Next" (or "Prev") links.<br />[{{fullurl:{{NAMESPACE}}:{{PAGENAME}}}} *] [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=0}} 0-9][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=A}} A]
 [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=B}} B][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=C}} C][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=D}} D][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=E}} E]
 [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=F}} F][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=G}} G]
 [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=H}} H][{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|from=I}} I]

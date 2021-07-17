@@ -1,2 +1,2 @@
-{{Frame|color = ee4300|content = <div style="border-bottom: 0.1px solid #a6a6a6;"><center><big> 
+{{Frame|color = ee4300|content = <div class="delete-notice-top" style="border-bottom: 0.1px solid #a6a6a6;"><center><big> 
       🚨'''THIS ARTICLE IS A CANDIDATE FOR DELETION'''🚨</big></center></div><center>This article is a candidate for deletion, and may be deleted by [[Community:Staff|Wiki Staff]]. {{#if:{{{reason|}}}|<br />'''Provided reason''': {{{reason}}} }}<br />''Remember to check [[Special:Whatlinkshere/{{FULLPAGENAME}}|what links here]] and [{{fullurl:{{FULLPAGENAME}}|action=history}} edit history] before deletion.''</center>}}<includeonly>[[Category:Candidates for deletion]] <br /></includeonly><noinclude>[[Category:Notice templates]]</noinclude>

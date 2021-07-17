@@ -1,1 +1,1 @@
-<font color="7a0000">{{{1}}}</font>
+<span class="invalid">{{{1}}}</span>

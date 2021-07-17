@@ -1,1 +1,1 @@
-<font color="#193cff">{{{1}}}</font>
+<span class="latest">{{{1}}}</span>

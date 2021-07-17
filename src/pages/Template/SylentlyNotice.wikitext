@@ -1,4 +1,1 @@
-{|style="padding: 8px; margin-bottom:4px; background-color: #60AAEC; border: 4px solid #075696; width: 100%; border-radius:10px;"
-|- 
-|align="center"|<font size="4">'''🚨 IMPORTANT NOTICE 🚨'''</font><br>This pet is only owned by Sylently, the builder of Bubble Gum Simulator. There is '''NO ONE''' that owns this pet other than her and there is only one kind of this in the actual game. There is also NO other way to get this pet as of now.
-|}
+{{Notice|content = This pet is only owned by Sylently, the builder of Bubble Gum Simulator. There is '''NO ONE''' that owns this pet other than her and there is only one kind of this in the actual game. There is also NO other way to get this pet as of now.}}
