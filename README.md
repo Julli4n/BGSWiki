@@ -6,8 +6,8 @@
         The repository that holds the <i>open source</i> files of the custom <b>CSS</b> (in SASS), <b>JavaScript</b> (in TS/JS), <b>Lua Modules</b>, and <b>wikitext templates</b> for the <a href="//bubble-gum-simulator.fandom.com">Bubble Gum Simulator Wiki</a> on Fandom.
     </p>
     <p>
-        <a href="//github.com/Julli4n/BGSWiki/blob/main/LICENSE"><image src="https://img.shields.io/github/license/Julli4n/BGSWiki" /></a>
-        <a href="//github.com/Julli4n/BGSWiki/releases"><image src="https://img.shields.io/github/v/release/Julli4n/BGSWiki" /></a>
+        <a href="//github.com/RumbleWikis/BGSWiki/blob/main/LICENSE"><image src="https://img.shields.io/github/license/RumbleWikis/BGSWiki" /></a>
+        <a href="//github.com/RumbleWikis/BGSWiki/releases"><image src="https://img.shields.io/github/v/release/RumbleWikis/BGSWiki" /></a>
     </p>
 </div>
 
