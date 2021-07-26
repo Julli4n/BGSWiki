@@ -15,12 +15,12 @@
 This repository exists solely to allow contributors to pull request, or occasionally create issues to contribute to protected pages on the Wiki.
 
 ## Dependencies
-* [Deno runtime](https://deno.land)
-  * Bundler, better for the web
-* [Babel transpiler](https://babeljs.io)
-  * Compatibility for browsers
-* [SASS compiler](https://sass-lang.com)
-  * SASS to CSS compiler
+* [WikiPages](https://github.com/RumbleWikis/WikiPages)
+  * Deployment to the wiki, and page resolution
+* [WikiPages-SASS-Compiler-Middleware](https://github.com/RumbleWikis/WikiPages-Middleware)
+  * Compiles SASS/SCSS for WikiPages
+* [WikiPages-Deno-Bundlerr-Middleware](https://github.com/RumbleWikis/WikiPages-Middleware)
+  * Bundles TS/TSX/JS/JSX for WikiPages
 
 ## Deployment
 Upon the creation of a GitHub release, a private server will fetch the entire Git repository, and compile the files as needed, then saves the new content to the target pages.
