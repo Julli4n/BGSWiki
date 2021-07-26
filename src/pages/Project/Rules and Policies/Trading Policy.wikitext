@@ -20,7 +20,7 @@ While trading, users:
 ** Trade duplicated items;
 ** Pretend to have certain pets or items;
 ** Beg for free pets/items;
-** Waste other user's time;
+** Waste other users' time;
 ** Create fake/joke posts;
 
 <big>'''LAST UPDATED: June 3rd, 2021'''</big>
