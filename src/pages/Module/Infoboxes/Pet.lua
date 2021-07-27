@@ -38,6 +38,7 @@ function PetInfobox.Create(frame)
     local Namespace = frame:preprocess("{{NAMESPACE}}")
     -- Determine if it's a real page
     local IsRealPage = Namespace == ""
+    -- Don't judge, this is for easier access of information
     local Info = {
         Title = frame.args.PetName or frame.args.title1 or frame.args.title or mw.text.decode(frame:preprocess("{{PAGENAME}}")),
         Image1 = frame.args.image1,
@@ -91,7 +92,7 @@ function PetInfobox.Create(frame)
             Section:tag("label"):wikitext(type.Label)
             if (type.Invert and not Info[type.Image]) and Info[type.InvertImage] then
                 local Image = Section:tag("data"):tag("default")
-                Image:tag("div"):addClass("invertIMG"):cssText("margin-left:-14px; margin-top: -10px; margin-bottom: -10px;"):wikitext(string.format("[[File:%s|300px]]", Info[type.InvertImage]))
+                Image:tag("div"):addClass("invert-img"):cssText("margin-left:-14px; margin-top: -10px; margin-bottom: -10px;"):wikitext(string.format("[[File:%s|300px]]", Info[type.InvertImage]))
                 Image:tag("br")
                 Image:tag("div"):cssText("margin-left:4em;"):wikitext("''Inverted HUE (may be inaccurate)''")
             else
@@ -164,4 +165,5 @@ end
 
 -- Create alias
 PetInfobox.CreateInfobox = PetInfobox.Create
+
 return PetInfobox

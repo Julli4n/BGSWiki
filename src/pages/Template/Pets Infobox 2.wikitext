@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:Infoboxes/Pet|TemplateProxy}}</includeonly>
