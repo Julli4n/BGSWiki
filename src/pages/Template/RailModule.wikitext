@@ -1,8 +1,0 @@
-<div align="center">
-{{DiscordIntegrator
-|id     = 516008063791136769
-|theme = light
-|width  = 243px
-|height = 401px
-}}
-</div>
