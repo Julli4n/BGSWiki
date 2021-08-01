@@ -1,6 +1,7 @@
 {
     "deno.enable": true,
     "deno.lint": true,
+    "deno.config": "./tsconfig.json",
     "sass.lint.enable": false, // NEVER SET THIS TO TRUE
     "stylelint.validate": [
         "css",
