@@ -89,6 +89,5 @@ export default function StatsCalculator(element: Element): DocumentFragment {
         }
       
       }}>Calculate</button>
-
     </>) as unknown as DocumentFragment;
-  }
+}

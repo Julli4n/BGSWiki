@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "jsxFactory": "createElement",
+    // We'd rather use a string to identify a fragment sent through jsxFactory instead of 
+    // creating another entire function just for fragments.
     "jsxFragmentFactory": "\"fragment\""
   }
 }
