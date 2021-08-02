@@ -5,16 +5,48 @@ import commafy from "../utils/commafy.ts";
 import constants from "../utils/statCalculatorConstants.ts";
 import calculateStat from "../utils/calculateStat.ts";
 
-// TO-DO: add amplifiers for potions, maybe redo aswell?
-// This really isn't a component *yet*, but this will be vibing here
-export default function StatsCalculator(element: Element) {
-    const level = createElement("input") as HTMLInputElement;
-    const levelLabel = createElement("label", { innerHTML: "Level" });
-    const enchant = createElement("input") as HTMLInputElement;
-    const enchantLabel = createElement("label", { innerHTML: "Enchant" });
-    const calculate = createElement("button", {
-      innerHTML: "Calculate",
-      onclick: function () {
+// TODO: add amplifiers for potions, also redo it entirely to be on the left side of the Infobox
+export default function StatsCalculator(element: Element): DocumentFragment {
+    return (<>
+      <label className="level-label">Level</label>
+      <br />
+      <input className="level-input" />
+      <br />
+      <button className="max-level" onclick={() => {
+        const level = element.getElementsByClassName("level-input")[0] as HTMLInputElement;
+        const calculate = element.getElementsByClassName("calculate")[0] as HTMLButtonElement;
+
+        level.value = String(constants.maxLevel);
+        calculate.click();
+      }}>🔮 Max Level</button>
+      <br />
+      <br />
+      <label className="enchant-label">Enchant</label>
+      <br />
+      <input className="enchant-input" />
+      <br />
+      <button className="max-enchant" onclick={() => {
+        const enchant = element.getElementsByClassName("enchant-input")[0] as HTMLInputElement;
+        const calculate = element.getElementsByClassName("calculate")[0] as HTMLButtonElement;
+
+        enchant.value = String(constants.maxEnchant);
+        calculate.click();
+      }}>🧪 Max Normal Enchant</button>
+      <br />
+      <br />
+      <button className="max-shadow-enchant" onclick={() => {
+        const enchant = element.getElementsByClassName("enchant-input")[0] as HTMLInputElement;
+        const calculate = element.getElementsByClassName("calculate")[0] as HTMLButtonElement;
+
+        enchant.value = String(constants.maxShadowEnchant);
+        calculate.click();
+      }} >👽 Max Shadow Enchant</button>
+      <br />
+      <br />
+      <button className="calculate" onclick={() => {
+        const level = element.getElementsByClassName("level-input")[0] as HTMLInputElement;
+        const enchant = element.getElementsByClassName("enchant-input")[0] as HTMLInputElement;
+
         const infobox = document.getElementsByClassName("portable-infobox")[0];
         const spans = infobox.getElementsByTagName("span");
         for (let i = 0; i < spans.length; i++) {
@@ -55,47 +87,8 @@ export default function StatsCalculator(element: Element) {
               commafy(calculateStat(levelValue, enchantValue, original));
           }
         }
-      },
-    });
-    const maxLevel = createElement("button", {
-      innerHTML: "🔮 Max Level",
-      onclick: function () {
-        level.value = String(constants.maxLevel);
-        calculate.click();
-      },
-    });
-    const maxEnchant = createElement("button", {
-      innerHTML: "🧪 Max Enchant",
-      onclick: function () {
-        enchant.value = String(constants.maxEnchant);
-        calculate.click();
-      },
-    });
-    const maxShadowEnchant = createElement("button", {
-      innerHTML: "👽 Max Shadow Enchant",
-      onclick: function () {
-        enchant.value = String(constants.maxShadowEnchant);
-        calculate.click();
-      },
-    });
-    element.append(
-      levelLabel,
-      createElement("br"),
-      level,
-      createElement("br"),
-      maxLevel,
-      createElement("br"),
-      createElement("br"),
-      enchantLabel,
-      createElement("br"),
-      enchant,
-      createElement("br"),
-      maxEnchant,
-      createElement("br"),
-      createElement("br"),
-      maxShadowEnchant,
-      createElement("br"),
-      createElement("br"),
-      calculate,
-    );
+      
+      }}>Calculate</button>
+
+    </>) as unknown as DocumentFragment;
   }

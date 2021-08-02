@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
-    "jsxFactory": "createElement"
+    "jsxFactory": "createElement",
+    "jsxFragmentFactory": "\"fragment\""
   }
 }

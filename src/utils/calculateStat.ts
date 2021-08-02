@@ -7,5 +7,5 @@ export default function calculateStat(level = 1, enchant = 0, stat: number, isAm
     // calculate enchant
     calculation = calculateStatInternal(constants.minEnchant, constants.maxShadowEnchant, constants.maxShadowEnchantEffect, enchant, calculation);
 
-    return calculation * (isAmplified ? 1.15 : 1);
+    return Math.ceil(calculation * (isAmplified ? 1.15 : 1));
 }
