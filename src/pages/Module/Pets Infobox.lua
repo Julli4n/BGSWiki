@@ -130,7 +130,7 @@ function p.CreateInfobox(frame)
             ]]):format(name, name))
         if invert and not image and invertimg then
             Add(([===[<data>
-                         <default><div class="invertIMG" style="margin-left:-14px; margin-top: -10px; margin-bottom: -10px;">[[File:%s|300px]]</div><br /><div style="margin-left:4em;">''Inverted HUE (may be inaccurate)''</div></default>
+                         <default><div class="invert-img" style="margin-left:-14px; margin-top: -10px; margin-bottom: -10px;">[[File:%s|300px]]</div><br /><div style="margin-left:4em;">''Inverted HUE (may be inaccurate)''</div></default>
                      </data>
                 ]===]):format(invertimg))
         else
