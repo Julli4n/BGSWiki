@@ -1,0 +1,7 @@
+# This is a title blacklist. Titles and users that match a regular expression here cannot be created.
+# Use "#" for comments.
+# This is case insensitive by default
+# Remember that it matches the entire string, not just patterns. Add ".*" to the start and end of each regexp.
+
+# Trade filter
+(?!User:).*t+r+((a|4)+)?d+((e|3)+)?((i|1)+)n+(g+)?.* # e.g: trading_pets, should not include User:trading_pets
