@@ -1,4 +1,4 @@
-import createElement from "../utils/createElement2.ts";
+import createElement from "../utils/createElement.ts";
 
 document.getElementById("bruh")!.append(
   <div>

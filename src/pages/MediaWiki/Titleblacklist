@@ -5,3 +5,7 @@
 
 # Trade filter
 (?!User:).*t+r+((a|4)+)?d+((e|3)+)?((i|1)+)n+(g+)?.* # e.g: trading_pets, should not include User:trading_pets
+
+
+# Robux filter
+.*f+r+e+.*(r|b)+o+b+u+x+.* # e.g: freeeee_robux or User:Free_robux_at_roblox_com

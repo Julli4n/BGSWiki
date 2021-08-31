@@ -14,6 +14,7 @@
 *Vandalism and other problems
 **Removing content from pages without proper justification
 **Blanking pages
+**Creating useless pages
 **Edit farming
 **Editing another user's profile
 **Inserting nonsense/gibberish into pages
