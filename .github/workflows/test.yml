@@ -22,6 +22,7 @@ jobs:
       - name: Setup WikiPages
         run: |
           npm install -g @rumblewikis/wikipages
+          npm install dotenv
           npm install @rumblewikis/wikipages-sass-compiler-middleware
           npm install @rumblewikis/wikipages-deno-bundler-middleware
 
