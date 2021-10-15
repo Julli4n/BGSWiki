@@ -9,7 +9,7 @@ module.exports = {
   credentials: {
     username: process.env.username,
     password: process.env.password,
-    apiUrl: "https://bubble-gum-tower-defense.fandom.com/api.php"
+    apiUrl: "https://bubble-gum-simulator.fandom.com/api.php"
   },
   path: {
     srcDirectory: "src/pages",
