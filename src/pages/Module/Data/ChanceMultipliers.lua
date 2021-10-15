@@ -1,5 +1,5 @@
 return {
-    1, -- min (no boosts enabled) 
+    1, -- min (no boosts enabled)
     1.25, 
     2, 
     2.5, 
