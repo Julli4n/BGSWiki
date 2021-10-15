@@ -13,7 +13,7 @@ module.exports = {
   },
   path: {
     srcDirectory: "src/pages",
-    cacheFile: "bgtdwiki-cache.json"
+    cacheFile: "bgs-cache.json"
   },
   middlewares: [denoBundlerMiddleware, sassCompilerMiddleware],
   middlewareSettings: {
