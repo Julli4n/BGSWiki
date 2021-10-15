@@ -1,3 +1,5 @@
+-- DEPRECATED, DO NOT USE IN THE FUTURE
+
 local p = {}
 local DiscordStaff = {
     'Bawp29',

@@ -1,3 +1,4 @@
+-- DEPRECATED, DO NOT USE IN THE FUTURE
 -- <nowiki>  Hide module's contents from the wikitext parser to avoid unwanted side effects
 
 local ChanceMultis = { 1, 1.25, 2, 2.5, 4, 5, 8, 10 }

@@ -1,3 +1,5 @@
+-- DEPRECATED, DO NOT USE IN THE FUTURE
+
 local StatMultipliers = require('Module:Utilities/StatMultipliers')
 local Faces = require('Module:Utilities/FaceStats')
 local p = {}

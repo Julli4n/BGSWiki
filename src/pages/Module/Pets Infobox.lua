@@ -1,3 +1,5 @@
+-- DEPRECATED, DO NOT USE IN THE FUTURE
+
 -- <nowiki>  Hide module's contents from the wikitext parser to avoid unwanted side effects
 
 -- TODO: redo entire module

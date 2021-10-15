@@ -16,8 +16,5 @@
     "wikitext.articlePath": "/wiki/",
     "wikitext.getCss": true,
     "wikitext.enableJavascript": true,
-    "Lua.runtime.version": "Lua 5.1",
-    "deno.suggest.imports.hosts": {
-      "https://cdn.skypack.dev": false
-    }
+    "Lua.runtime.version": "Lua 5.1"
   }

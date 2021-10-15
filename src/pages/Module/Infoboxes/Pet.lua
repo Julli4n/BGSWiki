@@ -1,3 +1,5 @@
+-- DEPRECATED, DO NOT USE IN THE FUTURE
+
 --[[
     Handler for the Pets Infobox
 ]]

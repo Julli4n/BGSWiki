@@ -1,4 +1,5 @@
--- TODO: redo entire module
+-- DEPRECATED, DO NOT USE IN THE FUTURE
+
 local p ={}
 local currencies = {
     "Bubbles",

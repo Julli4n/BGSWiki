@@ -1,3 +1,5 @@
+-- DEPRECATED, DO NOT USE IN THE FUTURE
+
 local StatMultipliers = require('Module:Utilities/StatMultipliers')
 local Flavors = require('Module:Utilities/FlavorStats')
 local p = {}
