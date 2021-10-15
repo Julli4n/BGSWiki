@@ -23,4 +23,6 @@ jobs:
           npm install @rumblewikis/wikipages-deno-bundler-middleware
 
       - name: Run WikiPages check
-        run: wikipages check --project="../default.wiki.js" --quiet="false"
+        run: |
+          ls -a
+          wikipages check --project="../default.wiki.js" --quiet="false"
