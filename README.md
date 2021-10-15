@@ -23,27 +23,21 @@ This repository exists solely to allow contributors to pull request, or occasion
   * Bundles TS/TSX/JS/JSX for WikiPages
 
 ## Deployment
-Upon the creation of a GitHub release, a private server will fetch the entire Git repository, and compile the files as needed, then saves the new content to the target pages.
+Upon the creation of a GitHub release, a private server will fetch the entire Git repository, and compile the files as needed, then saves the new content to the target pages with `<Client>.run(comment)`.
 
 ### File Types
 Note that files such as ImportJS <b>do not</b> have their own extension.
 * Scripts 
   * `.js`, `.jsx`, `.ts`, `.tsx`
 * Stylesheets
-  *  `.css`, `.sass`
+  *  `.css`, `.scss`, `.sass`
 * Modules
   * `.lua`
 * Wikitext
   * `.wikitext`
     * Generally, `.wikitext` is not a valid extension and is only used for syntax highlighting for text editing
 ### Path Resolving
-MediaWiki's URL paths are not delightful to look at, this repository will <b>not</b> handle it the same way. (i.e:  MediaWiki's used format allows for `Module:Test` and `Module:Test/doc` to exist simultaneously as files).
-* Only files read recursively from `./src/pages/` will be considered and read.
-* The highest ancestor of a file will determine the namespace it will be located at (i.e: `./src/pages/Module/Test.lua` will be located at `Module:Test`)
-* The extension of all files will be removed from the filename except for the `.js` and `.css` extensions.
-* If the highest ancestor is "Main", it will be considered to be in the main namespace (i.e: `./src/pages/Main/Doggy.wikitext` will be located at `Doggy`).
-* If a file's basename is the same string as its direct parent, it will be considered to have the path of its directory (i.e: `./src/pages/Module/Test/Test.lua` will be located at `Module:Test`).
-* If a file's extension is `.doc.wikitext`, it will be located at its basename appeneded by `/doc`
+Please see [here](//github.com/RumbleWikis/WikiPages#path-resolving) for more information.
 
 ### Compilation
 Scripts and style sheets will be compiled and renamed to their `.js` and `.css` extensions respectively.
@@ -53,6 +47,14 @@ Scripts and style sheets will be compiled and renamed to their `.js` and `.css` 
 ## Contributing
 All contributions are welcome, as long as they follow [Fandom's Terms of Use](https://www.fandom.com/terms-of-use), and [Bubble Gum Simulator Wiki's rules](https://bubble-gum-simulator.fandom.com/wiki/Community:Rules).
 
+### Prerequisites for the WikiPages CLI
+1. Install NodeJs (https://nodejs.org/en/)
+2. Install @rumblewikis/wikipages-deno-bundler-middleware (`npm i @rumblewikis/wikipages-deno-bundler-middleware`)
+3. Install @rumblewikis/wikipages-sass-compiler-middleware (`npm i @rumblewikis/wikipages-sass-compiler-middleware`)
+4. Install dotenv (`npm i dotenv`)
+4. Install the WikiPages CLI (`npm i -g @rumblewikis/wikipages`)
+5. Try out the CLI `wikipages check`
+
 ### Recommended Visual Studio Code Extensions
 * [Deno](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno) by denoland
   * Deno support and lint
@@ -60,7 +62,7 @@ All contributions are welcome, as long as they follow [Fandom's Terms of Use](ht
   * Wikitext syntax highlighting
 * [SASS](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) by Syler
   * SASS syntax highlighting
-* [vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by Stylelint
-  * Better style lint/validators
+* ~~[vscode-stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by Stylelint~~
+  * ~~Better style lint/validators~~
 * [lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) by sumneko
   * For everything cool in Lua

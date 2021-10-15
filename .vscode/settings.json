@@ -2,17 +2,22 @@
     "deno.enable": true,
     "deno.lint": true,
     "deno.config": "./tsconfig.json",
-    "sass.lint.enable": false, // NEVER SET THIS TO TRUE
-    "stylelint.validate": [
+    /*"stylelint.validate": [
         "css",
         "sass",
-        "scss"
+        "scss" 
     ],
     "css.validate": false, // Stop built-in validators
     "scss.validate": false, // Stop built-in validators
+    */
+    // Please see https://github.com/stylelint/stylelint/issues/4711 on why StyleLint is disabled on this project
     "wikitext.host": "bubble-gum-simulator.fandom.com",
     "wikitext.apiPath": "/api.php",
     "wikitext.articlePath": "/wiki/",
     "wikitext.getCss": true,
-    "Lua.runtime.version": "Lua 5.1"
-}
+    "wikitext.enableJavascript": true,
+    "Lua.runtime.version": "Lua 5.1",
+    "deno.suggest.imports.hosts": {
+      "https://cdn.skypack.dev": false
+    }
+  }

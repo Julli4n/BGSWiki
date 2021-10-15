@@ -1,0 +1,28 @@
+/* 
+ * Fandomdesktop.scss from the Bubble Gum Simulator Wiki on Fandom. https://bubble-gum-simulator.fandom.com
+ * Redistribution and reference is permitted as long as proper attribution is given (per CC BY-SA), but direct re-usage is not recommended as this CSS style sheet was and is created specifically for the Bubble Gum Simulator Wiki
+ * See https://www.fandom.com/licensing for more information about licensing
+*/
+
+@use "../../styles/fandomdesktop/variables.scss";
+@use "../../styles/fandomdesktop/keyframes.scss";
+@use "../../styles/fandomdesktop/global.scss";
+@use "../../styles/fandomdesktop/infobox.scss";
+@use "../../styles/fandomdesktop/create_page.scss";
+@use "../../styles/fandomdesktop/main_page.scss";
+@use "../../styles/fandomdesktop/item_tables.scss";
+@use "../../styles/fandomdesktop/other.scss";
+@use "../../styles/fandomdesktop/item_multipliers.scss";
+@use "../../styles/fandomdesktop/item_rarities.scss";
+@use "../../styles/fandomdesktop/staff.scss";
+@use "../../styles/fandomdesktop/adjustments.scss";
+
+/***----------[ Imports ]----------***/
+@import "https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css";
+
+@import "https://bubble-gum-simulator.fandom.com/load.php?mode=articles&articles=u:dev:MediaWiki:FandomizedTabs/tabbers.css&only=styles";
+
+@font-face {
+  font-family: "ComicNeue Angular";
+  src: url("https://cdn.glitch.com/207026e1-92a9-4ad8-be01-db8e3723ef19%2FComicNeue-Angular-Bold.woff2?v=1580574190904");
+}

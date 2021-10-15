@@ -1,0 +1,28 @@
+/***----------[ Other ]----------***/
+.invert-img {
+  filter: hue-rotate(-180deg);
+}
+
+.bgsHeader {
+  display: inherit !important;
+}
+
+.bgsTable {
+  box-shadow: 0px 0px 0px 10px var(--bgs-bgsTable-shadow);
+  border-radius: 10px;
+  background-color: var(--bgs-bgsTable-background);
+  margin-left: 10px;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.rainbow2 {
+  -webkit-animation: rainbow2 5s infinite;
+  -moz-animation: rainbow2 5s infinite;
+  -ms-animation: rainbow2 5s infinite;
+  animation: rainbow2 5s infinite;
+}
+
+.mw-editsection {
+  display: none !important;
+}
