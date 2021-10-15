@@ -17,7 +17,10 @@ jobs:
           node-version: "16"
           
       - name: Setup WikiPages
-        run: npm install -g @rumblewikis/wikipages
+        run: |
+          npm install -g @rumblewikis/wikipages
+          npm install @rumblewikis/wikipages-sass-compiler-middleware
+          npm install @rumblewikis/wikipages-deno-bundler-middleware
 
       - name: Run WikiPages check
         run: wikipages check --quiet="false"
