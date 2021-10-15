@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup Checkout
+        uses: actions/checkout@v2
+        
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
@@ -23,6 +26,4 @@ jobs:
           npm install @rumblewikis/wikipages-deno-bundler-middleware
 
       - name: Run WikiPages check
-        run: |
-          ls -a
-          wikipages check --project="../default.wiki.js" --quiet="false"
+        run: wikipages check --quiet="false"
