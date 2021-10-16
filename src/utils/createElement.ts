@@ -1,5 +1,3 @@
-/// <reference path="https://deno.land/x/domtype@v1.0.4/mod.ts" />
-
 declare global {
   namespace JSX {
     type Element = string;
@@ -8,6 +6,7 @@ declare global {
     }
   }
 }
+
 export default function createElement(tagName: string | ((props: Record<string, string | (() => unknown)>, children: (HTMLElement | string)[]) => HTMLElement | DocumentFragment), props: Record<string, string | (() => unknown)> = {},  ...children: (HTMLElement | string)[]): HTMLElement | DocumentFragment {
   const element = typeof tagName === "string" ? (tagName === "fragment" ? new DocumentFragment()  : document.createElement(tagName)) : tagName(props, children);
   

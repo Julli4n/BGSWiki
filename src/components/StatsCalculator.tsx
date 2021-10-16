@@ -5,7 +5,7 @@ import commafy from "../utils/commafy.ts";
 import constants from "../utils/statCalculatorConstants.ts";
 import calculateStat from "../utils/calculateStat.ts";
 
-// TODO: add amplifiers for potions, also redo it entirely to be on the left side of the Infobox
+// TODO: add amplifiers for potions, also make a Show/Hide button for it.
 export default function StatsCalculator(element: Element): DocumentFragment {
     return (<>
       <label className="level-label">Level</label>
