@@ -131,9 +131,9 @@ function p.CreateInfobox(frame)
                   <label>%s</label>
             ]]):format(name, name))
         if invert and not image and invertimg then
-            Add(([===[<data>
-                         <default><div class="invert-img" style="margin-left:-14px; margin-top: -10px; margin-bottom: -10px;">[[File:%s|300px]]</div><br /><div style="margin-left:4em;">''Inverted HUE (may be inaccurate)''</div></default>
-                     </data>
+            Add(([===[<navigation>
+                         <div style="margin-left: -9px; margin-top: -9px;" class="invertIMG">[[File:%s|268x268px]]</div><br /><div align="center">''Inverted HUE (may be an inaccurate representation)''</div>
+                     </navigation>
                 ]===]):format(invertimg))
         else
             Add(([[<image>
@@ -169,9 +169,9 @@ function p.CreateInfobox(frame)
                         ]===]):format(v[3], v[1], v[2], v[4] or '', stat))
                 end
             end
-            Add([[<data>
-                     <default><center><div style="margin-left: 4.2em; margin-top: -10px; margin-bottom: -10px;"><div class="calculator"></div></div></center><br /></default>
-                  </data>]])
+            Add([[<navigation>
+                     <div align="center" class="calculator" /><br />
+                  </navigation>]])
             if Info.title ~= "Sylently's Pet" and Info.title ~= "Isaac's Creation 2.0" and RealPage then
                 Add(([===[<header>Stats Rating</header>
                           <data>
