@@ -8,6 +8,7 @@ local Module = {}
 
 ---@class CategoryHandler
 --Handler for handling and getting categories.
+---@field Categories string[]
 local CategoryHandler = setmetatable({
     Categories = {}
 }, {

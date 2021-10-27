@@ -50,7 +50,7 @@ return {
         Icon = "Candy.png",
         Aliases = {"Candy-1"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Blocks",
@@ -58,7 +58,7 @@ return {
         Icon = "Block.png",
         Aliases = {"Block"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Shells",
@@ -66,7 +66,7 @@ return {
         Icon = "Shell.png",
         Aliases = {"Shell"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Pearls",
@@ -74,7 +74,7 @@ return {
         Icon = "Pearl.png",
         Aliases = {"Pearl"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Stars",
@@ -82,7 +82,7 @@ return {
         Icon = "Star.png",
         Aliases = {"Star"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Magma",
@@ -90,7 +90,7 @@ return {
         Icon = "Magma.png",
         Aliases = {"Magma"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Candy Corn",
@@ -98,7 +98,7 @@ return {
         Icon = "CandyC.png",
         Aliases = {"CandyC", "CandyCorn"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     {
         Name = "Crystals",
@@ -106,7 +106,7 @@ return {
         Icon = "Crystal Icon.png",
         Aliases = {"Crystal"},
         Prefix = "x",
-        AffectedBy = {}
+        AffectedBy = {"PotionOfWorlds"}
     },
     -- Events
     {
@@ -170,6 +170,14 @@ return {
         CSSClass = "Silver",
         Icon = "Silver.png",
         Aliases = {"Silver"},
+        Prefix = "x",
+        AffectedBy = {"PotionOfWorlds"}
+    },
+    {
+        Name = "Lollipops",
+        CSSClass = "Lollipop",
+        Icon = "Lollipop.png",
+        Aliases = {"Lollipop"},
         Prefix = "x",
         AffectedBy = {"PotionOfWorlds"}
     },

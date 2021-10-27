@@ -1,5 +1,9 @@
--- Load modules
+--- Load modules
+---
 --- "other" should only exist if it's not for data (i.e. requiring an Infobox)
+--- @param name string The path to the module.
+--- @param other boolean Should it be loaded with `require()` or `mw.loadData()`, true for `require()`.
+--- @return any
 local function LoadModule(name, other)
 	return function()
 		local Module

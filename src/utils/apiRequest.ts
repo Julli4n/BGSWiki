@@ -1,4 +1,4 @@
-import "https://esm.sh/@types/jquery";
+// import JQuery types when?
 
 const baseUrl = "https://bgswiki.glitch.me/api";
 export default function apiRequest(

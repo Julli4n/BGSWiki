@@ -1,5 +1,3 @@
-/// <reference path="https://deno.land/x/domtype@v1.0.4/mod.ts" />
-
 import createElement from "../utils/createElement.ts";
 import commafy from "../utils/commafy.ts";
 import constants from "../utils/statCalculatorConstants.ts";

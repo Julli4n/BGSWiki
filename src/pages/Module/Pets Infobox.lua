@@ -31,33 +31,6 @@ local function commas(str)
     str = tostring(str)
     return #str % 3 == 0 and str:reverse():gsub("(%d%d%d)", "%1,"):reverse():sub(2) or str:reverse():gsub("(%d%d%d)", "%1,"):reverse()
 end
-local function GetStatRating(pet)
-    local Forbidden = {
-        "Sylently's Pet",
-        "Isaac's Creation"
-    }
-    local Pet = Pets[pet]
-    local BestOfStat = {}
-    for i,v in pairs(Pet.buffs) do
-        BestOfStat[i] = 0
-    end
-    for i,v in pairs(Pets) do
-        for i2,v2 in pairs(v.buffs) do
-            if BestOfStat[i2] and BestOfStat[i2] < v2 and not table.find(Forbidden, i) then
-                BestOfStat[i2] = v2
-            end
-        end
-    end
-    local Ratings = {}
-    for i,v in pairs(Pet.buffs) do
-        Ratings[i] = ((v / BestOfStat[i]) * (Pet.chance and 1 or 0.85)) * 5
-    end
-    local FinalRating = 0
-    for i,v in pairs(Ratings) do
-        FinalRating = FinalRating + v
-    end
-    return string.format("%2.1f", (FinalRating / 4))
-end
 function p.CreateInfobox(frame)
     local Namespace = frame:preprocess('{{NAMESPACE}}')
     if not Namespace then
@@ -101,6 +74,7 @@ function p.CreateInfobox(frame)
         Treats = (RealPage and Pets[frame.args.PetName].buffs.Treats) or (not RealPage and frame.args.Treat or ''),
         Bells = (RealPage and Pets[frame.args.PetName].buffs.Bells) or (not RealPage and frame.args.Bell or ''),
         Silver = (RealPage and Pets[frame.args.PetName].buffs.Silver) or (not RealPage and frame.args.Silver or ''),
+        Lollipops = (RealPage and Pets[frame.args.PetName].buffs.Lollipops) or (not RealPage and frame.args.Lollipops or ''),
         All = (RealPage and Pets[frame.args.PetName].buffs.All) or (not RealPage and frame.args.All or ''),
         HasMythic = (RealPage and Pets[frame.args.PetName].hasMythic) or (not RealPage and frame.args.HasMythic or '')
     }
@@ -170,15 +144,8 @@ function p.CreateInfobox(frame)
                 end
             end
             Add([[<navigation>
-                     <div align="center" class="calculator" /><br />
+                     <div align="center" class="calculator"></div><br />
                   </navigation>]])
-            if Info.title ~= "Sylently's Pet" and Info.title ~= "Isaac's Creation 2.0" and RealPage then
-                Add(([===[<header>Stats Rating</header>
-                          <data>
-                              <default><div style="margin-left:-5px; margin-top: -10px; margin-bottom: -10px;"><center><font size="4">%s</font></center>[[File:PSR %s.png|280px]]</div></default>
-                          </data>
-                    ]===]):format(GetStatRating(Info.title), GetStatRating(Info.title)))
-            end
             Add('</group>')
         end
         if Info.Chance and tonumber(Info.Chance) and Info.Rarity and Info.Rarity == 'Legendary' then
@@ -207,7 +174,7 @@ function p.CreateInfobox(frame)
     end
     Add('</panel>')
     done()
-    return RealPage and ('[[Category:Pets]] [[Category:%s Pets]] [[Category:%sing Pets]]'):format(Info.Rarity, Info.Type) or frame:preprocess('{{UserBlogWarn}}'), RealPage and Info.title ~= "Sylently's Pet" and Info.title ~= "Isaac's Creation 2.0" and  (('[[Category:Pets with a stat rating of %s]]'):format(GetStatRating(Info.title))) or '', Infobox
+    return RealPage and ('[[Category:Pets]] [[Category:%s Pets]] [[Category:%sing Pets]]'):format(Info.Rarity, Info.Type) or frame:preprocess('{{UserBlogWarn}}'), Infobox
 end
 return p
 
