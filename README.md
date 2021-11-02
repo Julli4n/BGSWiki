@@ -6,8 +6,8 @@
         The repository that holds the <i>open source</i> files of the custom <b>CSS</b> (in SASS), <b>JavaScript</b> (in TS/JS), <b>Lua Modules</b>, and <b>wikitext templates</b> for the <a href="//bubble-gum-simulator.fandom.com">Bubble Gum Simulator Wiki</a> on Fandom.
     </p>
     <p>
-        <a href="//github.com/MetaWikis/BGSWiki/blob/main/LICENSE"><image src="https://img.shields.io/github/license/MetaWikis/BGSWiki" /></a>
-        <a href="//github.com/MetaWikis/BGSWiki/releases"><image src="https://img.shields.io/github/v/release/MetaWikis/BGSWiki" /></a>
+        <a href="//github.com/RumbleWikis/BGSWiki/blob/main/LICENSE"><image src="https://img.shields.io/github/license/RumbleWikis/BGSWiki" /></a>
+        <a href="//github.com/RumbleWikis/BGSWiki/releases"><image src="https://img.shields.io/github/v/release/RumbleWikis/BGSWiki" /></a>
     </p>
 </div>
 
@@ -15,11 +15,11 @@
 This repository exists solely to allow contributors to pull request, or occasionally create issues to contribute to protected pages on the Wiki.
 
 ## Dependencies
-* [WikiPages](https://github.com/MetaWikis/WikiPages)
+* [WikiPages](https://github.com/RumbleWikis/WikiPages)
   * Deployment to the wiki, and page resolution
-* [WikiPages-SASS-Compiler-Middleware](https://github.com/MetaWikis/WikiPages-Middleware)
+* [WikiPages-SASS-Compiler-Middleware](https://github.com/RumbleWikis/WikiPages-Middleware)
   * Compiles SASS/SCSS for WikiPages
-* [WikiPages-Deno-Bundlerr-Middleware](https://github.com/MetaWikis/WikiPages-Middleware)
+* [WikiPages-Deno-Bundlerr-Middleware](https://github.com/RumbleWikis/WikiPages-Middleware)
   * Bundles TS/TSX/JS/JSX for WikiPages
 
 ## Deployment
@@ -37,7 +37,7 @@ Note that files such as ImportJS <b>do not</b> have their own extension.
   * `.wikitext`
     * Generally, `.wikitext` is not a valid extension and is only used for syntax highlighting for text editing
 ### Path Resolving
-Please see [here](//github.com/MetaWikis/WikiPages#path-resolving) for more information.
+Please see [here](//github.com/RumbleWikis/WikiPages#path-resolving) for more information.
 
 ### Compilation
 Scripts and style sheets will be compiled and renamed to their `.js` and `.css` extensions respectively.
