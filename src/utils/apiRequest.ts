@@ -1,4 +1,5 @@
-// import JQuery types when?
+/* import JQuery types when?
+
 
 const baseUrl = "https://bgswiki.glitch.me/api";
 export default function apiRequest(
@@ -22,3 +23,4 @@ export default function apiRequest(
       callback(true, data);
     });
 }
+*/

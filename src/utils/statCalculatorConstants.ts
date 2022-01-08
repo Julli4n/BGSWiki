@@ -1,5 +1,5 @@
 // Every 10 levels, ???
-// Every 10 enchants, it's an 0.125 increase from original (ex: 0 = 1, 10 = 1.125, ...)
+// Every 10 enchants, it's a 0.125 increase from original (ex: 0 = 1, 10 = 1.125, ...)
 export default {
     minLevel: 1,
     maxLevel: 25,

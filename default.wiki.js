@@ -15,7 +15,17 @@ module.exports = {
     srcDirectory: "src/pages",
     cacheFile: "bgs-cache.json"
   },
-  middlewares: [denoBundlerMiddleware, sassCompilerMiddleware],
+  middlewares: [denoBundlerMiddleware, sassCompilerMiddleware, {
+    // TO-DO: Implement this in main WikiPages package, under something like "ignoreRegex", then we can add the RegExp to ignore files ending with _DEPRECATED
+    type: "Page",
+    execute: (page) => {
+      if (page.path.endsWith("_DEPRECATED")) {
+        page.change({ shouldCommit: false });
+      }
+
+      return page;
+    }
+  }],
   middlewareSettings: {
     denoBundler: {
       useBabel: true,
